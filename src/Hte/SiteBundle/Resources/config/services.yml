@@ -1,0 +1,7 @@
+parameters:
+#    hte_site.example.class: Hte\SiteBundle\Example
+
+services:
+#    hte_site.example:
+#        class: %hte_site.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,0 +1,4 @@
+hte_site:
+    resource: "@HteSiteBundle/Resources/config/routing.yml"
+    prefix:   /
+

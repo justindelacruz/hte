@@ -1,0 +1,235 @@
+homepage:
+    section_1:
+        title: Looking for a Manufacturer?
+        body: >
+                HTE Enterprise delivers you quality and complete manufacturing solutions at competitively low rates for all
+                of your steel and aluminum alloy products.
+        button: Learn more about us
+    section_2:
+        title: A partner you can trust.
+        body: >
+                With over 35 years of experience, HTE Enterprise has developed, produced, and delivered thousands of
+                products globally to a diverse array of industries.
+        button: View our product samples
+    section_3:
+        title: Bring your products to life.
+        body: >
+                HTE Enterprise synergizes our expansive network of foundry services with our own in-house machining,
+                assembling, and quality assurance facility to manufacture you efficient, high-quality, and ready-to-install
+                products upon arrival.
+        button: Check out our capabilities
+    section_4:
+        title: Need a quote?
+        body: Find out how HTE Enterprise can transform your business by sending out our engineering consultants a design or product sample today!
+        button: Contact us here
+
+about_us:
+    section_1:
+        title: Industry Experience
+        body: >
+                Established in 1975, HTE Enterprise Co., LTD is a company comprised of experts in manufacturing,
+                specifically foundries and their supporting industries. Since our establishment, HTE Enterprise has steadily
+                grown, expanding our business into the global market while refining our policies and manufacturing processes to
+                meet world-class expectations. We’ve manufactured thousands of products for a variety of industries, including
+                but not limited to: pneumatic, construction and riveting tools, automotive and boat parts, medical and studio
+                equipment, and agricultural machinery.
+    section_2:
+        title: Customer Convenience
+        body: >
+                By synergizing our professional machining, assembling, and QC facility with our network of foundry
+                services, HTE Enterprise delivers you, ready-to-use products that remain high in quality and competitively
+                low in costs. Our “one-stop shop” services include: flexible OEM designing, various casting and forging
+                methods, precise CNC machining, enhancing heat treatments and surface finishes, skilled assembly, and
+                meticulous quality assurance routines. In addition, we assure prompt and transparent communication before,
+                during, and after the production process to mitigate any confusion or error that may have otherwise occurred.
+    section_3:
+        title: Quality Assurance
+        body: >
+                HTE Enterprise adheres to the global quality management standards of ISO 9001:2008, assuring that our
+                manufacturing and production process meet, if not exceeds our clients’ expectations. Furthermore, HTE
+                Enterprise personally machines, assembles, and inspects each and every order prior to shipment to ensure
+                your products have been manufactured as ordered. Our quality control methods routinely inspect each
+                product’s material and chemical properties, dimensional accuracy, porosity, surface finishes, and
+                functionality. International third-party inspections (e.g. SGS testing) can be administered per customer request.
+
+product_samples:
+    section_1:
+        title: Die Casting
+        body: >
+                HTE specializes in providing world-class quality products via Cold Chamber Die Castings, which is the
+                manufacturing process of injecting premeasured amounts of molten metal (typically non-ferrous alloys) at
+                high pressures into a hardened and reusable die, which can be designed to produce intricate shapes with
+                high degrees of accuracy and repeatability of up to approximately 80,000 cycles/die. Once the molten metal
+                has been injected, it rapidly solidifies under pressure into its desired form.<br />
+                <br />
+                The Die Casting process typically begins with a higher capital costs for the initial die but becomes one
+                of the most economical casting processes at large production volumes. Die Casting is also known for its
+                smooth cast surfaces, high degree of design complexity, and rapid production rates.
+    section_2:
+        title: Permanent Mold Casting
+        body: >
+                HTE specializes in providing world-class quality products via Gravity Permanent Mold Castings, which is the
+                manufacturing process of pouring molten metal (typically non-ferrous) into permanent reusable molds that
+                are typically made from materials with high thermal fatigue resistance. The molds are first typically
+                preheated, mold-washed, and installed with metal or sand cores before the molten metal is poured in. The
+                molds are then clamped shut until the molten metal cools and solidifies into its desired shape.<br />
+                <br />
+                The Permanent Mold process is known for its good surface finishes and dimensional accuracy. Although the
+                mold costs are relatively high, their longevity coupled with the process’ high production rate make this
+                method suitable for high production volumes.
+    section_3:
+        title: Sand Casting
+        body: >
+                HTE specializes in providing world-class quality products via Green Sand Castings, which is the
+                manufacturing process of compacting moist refractory sand around a desired pattern, forming the cast
+                product’s expendable mold cavity. Cores can be added for further intricacy if required. Sand Casting, due
+                to the mold’s refractory nature, is capable of casting both ferrous and non-ferrous products.<br />
+                <br />
+                The Green Sand Casting process is relatively inexpensive and has few limitations in regards to its size or
+                shape. However, Sand Casting results in coarse finishes and dimensional accuracy, thus additional finishing
+                is often required. Sand Casting is most economical at low production rates.
+    section_4:
+        title: Investment Casting
+        body: >
+                HTE specializes in providing world-class quality products via Lost Wax Investment Castings, which is the
+                manufacturing process of first utilizing a wax pattern that is casted or machined into the product’s
+                geometry, and then coated with a refractory ceramic material. The coating is then baked, hardening into
+                a shell while also subsequently melting away the inner wax, leaving an expendable mold cavity in the
+                desired geometry for the molten metal to be poured into. Once the molten metal solidifies, the casting is
+                extracted by breaking open the ceramic mold.<br />
+                <br />
+                Investment Casting is a relatively expensive process that requires skilled labor; however, the process
+                produces highly intricate shapes with good dimensional accuracy and smooth surface finishes, leaving low
+                finishing costs. Due to the molds refractory nature, it can cast both ferrous and non-ferrous metals.
+    section_5:
+        title: Die Drop Forging
+        body: >
+                HTE specializes in providing world-class quality products via Impression-Die Drop Forgings, which is the
+                manufacturing process of utilizing specifically shaped dies attached to the hammer and anvil. The hammer is
+                dropped onto the working metal (typically ferrous alloys), forcing the metal to flow into the dies’ desired
+                cavities until fully formed.<br />
+                <br />
+                Impression-Die Drop Forging has a high initial capital cost due to the price of the dies, but has a low
+                recurring cost, making the process most economical in high volumes. Forging finishes leave the material
+                with a high strength-to-weight ratio due to the wrought effects of the metal working process.
+capabilities:
+    section_1:
+        title: Design
+        body: >
+                Before any production process, HTE Enterprise extensively reviews each product and their design to
+                guarantee we have the capability and resources to manufacture a product that meets, if not exceed our
+                customers’ expectations. Once concluded that the aforementioned is possible, our engineers then map out
+                the most efficient and cost-effective process to manufacture the product.<br />
+                <br />
+                Our engineers are well versed in 3D CAD modeling and have decades of experience working with a spectrum of
+                different customers and products to bring their design concepts to fruition. While a sample and blueprint
+                are helpful, they are not required for our engineers to produce a prototype.
+    section_2:
+        title: Casting and Forming
+        body: >
+                HTE Enterprise’s experience in the manufacturing sphere has led to long term partnerships with a wide
+                network of foundries across Taiwan. This diversity in services allows HTE to provide innovative and
+                economical solutions to an equally as diverse array of industries and their manufacturing needs. The range
+                of industries we’ve served include but are not limited to: pneumatic, construction and riveting tools,
+                automotive and boat parts, medical and studio equipment, and agricultural machinery.<br />
+                <br />
+                The metal forming processes we provide include: Cold Chamber Die Casting, Green Sand Casting, Gravity
+                Permanent Mold Casting, Investment Casting, and Drop Forging.
+    section_3:
+        title: Machining
+        body: >
+                HTE Enterprise has continually invested considerably into our own in-house machining facility in order to
+                further our ongoing endeavor for quality and customer satisfaction. Each of our operators is highly trained
+                in the art of machining and pays keen level of attention throughout each procedural step.<br />
+                <br />
+                By having our machining facility on site, we can ensure that each product is CNC and manual machined to the
+                highest of standards. Our CNC and manual machining capabilities include: 5-axis machining, turning and
+                milling, drilling and tapping, grinding, stamping, and welding.
+    section_4:
+        title: Heat Treatments
+        body: >
+                Depending on the product’s intended application and machining requirements, it may be necessary to alter
+                the physical and mechanical properties of the material at hand. This can be completed through the
+                application of heat treatment, which is the heating and subsequent cooling of a material in a controlled
+                and specific manner without changing its exterior shape. Heat treatment has a myriad of benefits,
+                including: improved strength, ductility, machinability, corrosion resistance, abrasion resistance, and
+                electrical conductivity.<br />
+                <br />
+                At HTE Enterprise, we have access to a wide array of heat treatment techniques that can be implemented to
+                enhance your products, including: normalizing, annealing, case hardening, tempering, diffusion methods and
+                quenching.
+    section_5:
+        title: Surface Finishes
+        body: >
+                In today’s fast-paced world, first impressions can break or make a product’s success. To accomplish the
+                latter, surface finishes are often applied to boost a final product’s aesthetic allure. Additionally, the
+                benefits of surface finishes extend far deeper than just a product’s appearances but its functional
+                application as well (e.g. corrosion resistance)<br />
+                <br />
+                At HTE Enterprise, we offer a wide range of surface finishes that include but are not limited to:
+                degreasing, tumble burnishing, shot blasting, etching, plating, anodizing, conversion coatings, PTFE
+                coatings, and powder coatings.
+    section_6:
+        title: Assembling
+        body: >
+                HTE Enterprise assembles all our orders in-house, reducing your costs and increasing the quality assurance
+                of your product. Each of our workers is experienced in not only identifying the possible types of defects
+                in a manufactured product but does so while assembling at an efficient rate.<br />
+                <br />
+                Once product assembly has been completed, each batch is inspected a final time by our designated quality
+                assurance team. Our assembly team then prepares and packages each order for its designated shipment.
+    section_7:
+        title: Quality Assurance
+        body: >
+                HTE Enterprise understands that our customers are our biggest asset, thus customer satisfaction is always
+                our highest priority. Quality is essential to our core business, which is why we are actively involved in
+                every step of the production process, from designing through packaging, to guarantee an outstanding
+                product. International third-party inspection (e.g. SGS) tests can be administered if requested.<br />
+                <br />
+                HTE Enterprise includes the following quality inspection machines and techniques: 3D Coordinate Measuring,
+                Hardness and Tensile Testing, Optical Emission Spectroscopy, Liquid Penetrant Testing, and Functionality
+                Testing.<br />
+                <br />
+                Furthermore, HTE strictly adheres to the global quality management standards of ISO 9001:2008. We strive
+                not only to provide quality outputs within every procedure of the production process but to do so
+                efficiently and at a competitively low price.
+
+contact_us:
+    section_1:
+        title: Take your product design to the next level.
+        body: Send us an e-mail with your product's CAD design file for a quote and/or for further inquiries.
+        email: service@hteht.net
+        tel: +1-888-610-6590
+        fax: +1-213-568-0989
+    section_2:
+        title: Download our brochure (PDF)
+        body: Click here to download and share
+
+footer:
+    section_1:
+        title: USA Mailing Address
+        address_1: Unit 2209, 801 S Grand Ave.
+        address_2: Los Angeles, CA 90017
+        address_3: U.S.A.
+        tel: +1-888-610-6590
+        fax: +1-213-568-0989
+    section_2:
+        title: Taiwan Office
+        address_1: "1F, #9, Lane 12, Jiangnan St."
+        address_2: Neihu District, Taipei City
+        address_3: Taiwan, R.O.C.
+        tel: +886-2-8797-5911
+        fax: +886-2-8797-4980
+    section_3:
+        title: Factory
+        address_1: "#75-2, Zhuangqian Rd."
+        address_2: Shengang Disrict, Taichung City
+        address_3: Taiwan, R.O.C.
+        tel: +886-4-2562-5718
+        fax: +886-4-2562-5719
+    section_4:
+        email: service@hteht.net
+        facebook: http://facebook.com/hteht
+        linkedin: http://linkedin.com/company/hte-enterprise
+        gplus: http://gplus.to/hteht
+    copyright: Copyright &copy; HTE Enterprise Co. LTD All Rights Reserved

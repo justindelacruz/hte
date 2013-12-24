@@ -1,0 +1,41 @@
+{% extends 'HteSiteBundle:Default:_main.html.twig' %}
+
+{% block container %}
+<div class="stagger">
+    <div>
+        <div class="col-md-4"><img src="{{ asset('bundles/htesite/images/about_us.jpg') }}" class="img-responsive" /></div>
+        <div class="col-md-8">
+            <h3>{{ 'homepage.section_1.title'|trans|raw }}</h3>
+            <p>{{ 'homepage.section_1.body'|trans|raw }}</p>
+            <button>{{ 'homepage.section_1.button'|trans|raw }}</button>
+        </div>
+    </div>
+
+    <div>
+        <div class="col-md-8">
+            <h3>{{ 'homepage.section_2.title'|trans|raw }}</h3>
+            <p>{{ 'homepage.section_2.body'|trans|raw }}</p>
+            <button>{{ 'homepage.section_2.button'|trans|raw }}</button>
+        </div>
+        <div class="col-md-4"><img src="{{ asset('bundles/htesite/images/product_samples.jpg') }}" class="img-responsive" /></div>
+    </div>
+
+    <div>
+        <div class="col-md-4"><img src="{{ asset('bundles/htesite/images/capabilities.jpg') }}" class="img-responsive" /></div>
+        <div class="col-md-8">
+            <h3>{{ 'homepage.section_3.title'|trans|raw }}</h3>
+            <p>{{ 'homepage.section_3.body'|trans|raw }}</p>
+            <button>{{ 'homepage.section_3.button'|trans|raw }}</button>
+        </div>
+    </div>
+
+    <div>
+        <div class="col-md-8">
+            <h3>{{ 'homepage.section_4.title'|trans|raw }}</h3>
+            <p>{{ 'homepage.section_4.body'|trans|raw }}</p>
+            <button>{{ 'homepage.section_4.button'|trans|raw }}</button>
+        </div>
+        <div class="col-md-4"><img src="{{ asset('bundles/htesite/images/contact_us.jpg') }}" class="img-responsive"  /></div>
+    </div>
+</div>
+{% endblock %}
