@@ -1,23 +1,23 @@
 hte_index:
-    pattern:  /hte/
+    pattern:  /
     defaults: { _controller: HteSiteBundle:Site:index }
 
 hte_about:
-    pattern:  /hte/about{trailingSlash}
+    pattern:  /about{trailingSlash}
     defaults: { _controller: HteSiteBundle:Site:about, trailingSlash : "/" }
     requirements: { trailingSlash : "[/]{0,1}" }
 
 hte_product_samples:
-    pattern:  /hte/product-samples{trailingSlash}
+    pattern:  /product-samples{trailingSlash}
     defaults: { _controller: HteSiteBundle:Site:productSamples, trailingSlash : "/" }
     requirements: { trailingSlash : "[/]{0,1}" }
 
 hte_capabilities:
-    pattern:  /hte/capabilities{trailingSlash}
+    pattern:  /capabilities{trailingSlash}
     defaults: { _controller: HteSiteBundle:Site:capabilities, trailingSlash : "/" }
     requirements: { trailingSlash : "[/]{0,1}" }
 
 hte_contact:
-    pattern:  /hte/contact{trailingSlash}
+    pattern:  /contact{trailingSlash}
     defaults: { _controller: HteSiteBundle:Site:contact, trailingSlash : "/" }
     requirements: { trailingSlash : "[/]{0,1}" }
