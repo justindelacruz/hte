@@ -1,0 +1,64 @@
+.h-header {
+    background-color: #2e2d2d;
+    text-align: center;
+}
+
+.h-header span {
+    display: none;
+}
+.stagger > div {
+    clear: both;
+}
+
+.stagger .h-button {
+    display: block;
+    background-color: #d80303;
+    color: #FFF;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 10px;
+
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+
+@media (min-width: 768px) {
+    .stagger .h-button {
+        width: 33%;
+    }
+}
+
+.stagger .h-button:focus {
+    background-color: #8C0101;
+}
+
+.h-footer {
+    background-color: #2e2d2d;
+    color: #FFF;
+}
+
+/* Skip navigation */
+#h-skip a
+{
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+#h-skip a:focus
+{
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: #CCC;
+    padding: 5px 0;
+
+    position: static;
+    width: auto;
+    height: auto;
+}
