@@ -6,6 +6,10 @@
 .h-header span {
     display: none;
 }
+
+.h-header img {
+    display: inline;
+}
 .stagger > div {
     clear: both;
 }
@@ -30,13 +34,40 @@
     }
 }
 
-.stagger .h-button:focus {
+.stagger .h-button:hover {
     background-color: #8C0101;
 }
 
 .h-footer {
     background-color: #2e2d2d;
     color: #FFF;
+}
+
+/* Contact Us */
+.h-contact {
+    text-align: center;
+}
+
+.h-contact table {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.h-contact td {
+    width: 50%;
+}
+
+.h-contact td:first-child {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.h-contact td:last-child {
+    text-align: left;
+}
+
+.h-contact td span {
+    margin-right: 5px;
 }
 
 /* Skip navigation */

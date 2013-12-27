@@ -1,17 +1,37 @@
 {% extends 'HteSiteBundle:Default:_main.html.twig' %}
 
+{% block title %}Contact {% endblock %}
+
+{% block pageClass %}h-contact{% endblock %}
+
 {% block container %}
-    <div>
-        <h3>{{ 'contact_us.section_1.title'|trans|raw }}</h3>
-        <p>{{ 'contact_us.section_1.body'|trans|raw }}</p>
+    <h3>{{ 'contact_us.section_1.title'|trans|raw }}</h3>
+    <p>{{ 'contact_us.section_1.body'|trans|raw }}</p>
 
-        <p>E-mail: {{ 'contact_us.section_1.email'|trans|raw }}</p>
-        <p>Tel: {{ 'contact_us.section_1.tel'|trans|raw }}</p>
-        <p>Fax: {{ 'contact_us.section_1.fax'|trans|raw }}</p>
-    </div>
+    <table>
+        <tbody>
+            <tr>
+                <td><span class="glyphicon glyphicon-envelope"></span> E-mail:</td>
+                <td><a href="mailto:{{ 'contact_us.section_1.email'|trans|raw }}">{{ 'contact_us.section_1.email'|trans|raw }}</a></td>
+            </tr>
+            <tr>
+                <td><span class="glyphicon glyphicon-earphone"></span> Tel:</td>
+                <td><a href="tel:{{ 'contact_us.section_1.tel'|trans|raw }}">{{ 'contact_us.section_1.tel'|trans|raw }}</a></td>
+            </tr>
+            <tr>
+                <td><span class="glyphicon glyphicon-print"></span> Fax:</td>
+                <td><a href="fax:{{ 'contact_us.section_1.fax'|trans|raw }}">{{ 'contact_us.section_1.fax'|trans|raw }}</a></td>
+            </tr>
+        </tbody>
+    </table>
 
-    <div>
-        <h3>{{ 'contact_us.section_2.title'|trans|raw }}</h3>
-        <p>{{ 'contact_us.section_2.body'|trans|raw }}</p>
-    </div>
+    <h3>
+        {{ 'contact_us.section_2.title'|trans|raw }}
+    </h3>
+    <p>
+        <a href="{{ asset('bundles/htesite/docs/hte-enterprise-co-brochure.pdf') }}"><span class="glyphicon glyphicon-download"></span></a>
+        <a href="{{ asset('bundles/htesite/docs/hte-enterprise-co-brochure.pdf') }}">{{ 'contact_us.section_2.body'|trans|raw }}</a></p>
+    <p>
+        <a href="{{ asset('bundles/htesite/docs/hte-enterprise-co-brochure.pdf') }}"><img src="{{ asset('bundles/htesite/images/pdf_cover.jpg') }}" alt="Image of HTE Enterprise brochure PDF" /></a>
+    </p>
 {% endblock %}

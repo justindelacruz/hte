@@ -197,13 +197,13 @@ capabilities:
 contact_us:
     section_1:
         title: Take your product design to the next level.
-        body: Send us an e-mail with your product's CAD design file for a quote and/or for further inquiries.
+        body: Send us a message with your product's CAD design file for a quote and/or for further inquiries.
         email: service@hteht.net
         tel: +1-888-610-6590
         fax: +1-213-568-0989
     section_2:
-        title: Download our brochure (PDF)
-        body: Click here to download and share
+        title: Check out our brochure!
+        body: Click here to download our brochure (PDF)
 
 footer:
     section_1:
