@@ -2,40 +2,36 @@
 
 {% block container %}
 <div class="stagger">
-    <div class="row">
-        <div class="col-sm-4 col-sm-offset-1"><img src="{{ asset('bundles/htesite/images/about_us.jpg') }}" class="img-responsive" /></div>
-        <div class="col-sm-6">
-            <h3>{{ 'homepage.section_1.title'|trans|raw }}</h3>
-            <p>{{ 'homepage.section_1.body'|trans|raw }}</p>
-            <a href="{{ path('hte_about') }}" class="h-button">{{ 'homepage.section_1.button'|trans|raw }}</a>
-        </div>
-    </div>
+    {% include 'HteSiteBundle:Default:_stagger_left.html.twig' with {
+        'imageUrl': 'bundles/htesite/images/about_us.jpg',
+        'title': 'homepage.section_1.title',
+        'body': 'homepage.section_1.body',
+        'buttonRoute': 'hte_about',
+        'buttonText': 'homepage.section_1.button'
+    } %}
 
-    <div class="row">
-        <div class="col-sm-4 col-sm-offset-1"><img src="{{ asset('bundles/htesite/images/product_samples.jpg') }}" class="img-responsive" /></div>
-        <div class="col-sm-6">
-            <h3>{{ 'homepage.section_2.title'|trans|raw }}</h3>
-            <p>{{ 'homepage.section_2.body'|trans|raw }}</p>
-            <a href="{{ path('hte_product_samples') }}" class="h-button">{{ 'homepage.section_2.button'|trans|raw }}</a>
-        </div>
-    </div>
+    {% include 'HteSiteBundle:Default:_stagger_right.html.twig' with {
+        'imageUrl': 'bundles/htesite/images/product_samples.jpg',
+        'title': 'homepage.section_2.title',
+        'body': 'homepage.section_2.body',
+        'buttonRoute': 'hte_product_samples',
+        'buttonText': 'homepage.section_2.button'
+    } %}
 
-    <div class="row">
-        <div class="col-sm-4 col-sm-offset-1"><img src="{{ asset('bundles/htesite/images/capabilities.jpg') }}" class="img-responsive" /></div>
-        <div class="col-sm-6">
-            <h3>{{ 'homepage.section_3.title'|trans|raw }}</h3>
-            <p>{{ 'homepage.section_3.body'|trans|raw }}</p>
-            <a href="{{ path('hte_capabilities') }}" class="h-button">{{ 'homepage.section_3.button'|trans|raw }}</a>
-        </div>
-    </div>
+    {% include 'HteSiteBundle:Default:_stagger_left.html.twig' with {
+        'imageUrl': 'bundles/htesite/images/capabilities.jpg',
+        'title': 'homepage.section_3.title',
+        'body': 'homepage.section_3.body',
+        'buttonRoute': 'hte_capabilities',
+        'buttonText': 'homepage.section_3.button'
+    } %}
 
-    <div class="row">
-        <div class="col-sm-4 col-sm-offset-1"><img src="{{ asset('bundles/htesite/images/contact_us.jpg') }}" class="img-responsive"  /></div>
-        <div class="col-sm-6">
-            <h3>{{ 'homepage.section_4.title'|trans|raw }}</h3>
-            <p>{{ 'homepage.section_4.body'|trans|raw }}</p>
-            <a href="{{ path('hte_contact') }}" class="h-button">{{ 'homepage.section_4.button'|trans|raw }}</a>
-        </div>
-    </div>
+    {% include 'HteSiteBundle:Default:_stagger_right.html.twig' with {
+        'imageUrl': 'bundles/htesite/images/contact_us.jpg',
+        'title': 'homepage.section_4.title',
+        'body': 'homepage.section_4.body',
+        'buttonRoute': 'hte_contact',
+        'buttonText': 'homepage.section_4.button'
+    } %}
 </div>
 {% endblock %}

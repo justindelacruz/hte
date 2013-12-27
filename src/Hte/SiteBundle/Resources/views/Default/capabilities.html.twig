@@ -4,60 +4,46 @@
 
 {% block container %}
     <div class="stagger">
-        <div class="row">
-            <div class="col-sm-4 col-sm-offset-1"><img src="{{ asset('bundles/htesite/images/about_us.jpg') }}" class="img-responsive" /></div>
-            <div class="col-sm-6">
-                <h3>{{ 'capabilities.section_1.title'|trans|raw }}</h3>
-                <p>{{ 'capabilities.section_1.body'|trans|raw }}</p>
-            </div>
-        </div>
+        {% include 'HteSiteBundle:Default:_stagger_left.html.twig' with {
+            'imageUrl': 'bundles/htesite/images/about_us.jpg',
+            'title': 'capabilities.section_1.title',
+            'body': 'capabilities.section_1.body'
+        } %}
 
-        <div class="row">
-            <div class="col-sm-4 col-sm-offset-1"><img src="{{ asset('bundles/htesite/images/about_us.jpg') }}" class="img-responsive" /></div>
-            <div class="col-sm-6">
-                <h3>{{ 'capabilities.section_2.title'|trans|raw }}</h3>
-                <p>{{ 'capabilities.section_2.body'|trans|raw }}</p>
-            </div>
-        </div>
+        {% include 'HteSiteBundle:Default:_stagger_right.html.twig' with {
+            'imageUrl': 'bundles/htesite/images/product_samples.jpg',
+            'title': 'capabilities.section_2.title',
+            'body': 'capabilities.section_2.body'
+        } %}
 
-        <div class="row">
-            <div class="col-sm-4 col-sm-offset-1"><img src="{{ asset('bundles/htesite/images/about_us.jpg') }}" class="img-responsive" /></div>
-            <div class="col-sm-6">
-                <h3>{{ 'capabilities.section_3.title'|trans|raw }}</h3>
-                <p>{{ 'capabilities.section_3.body'|trans|raw }}</p>
-            </div>
-        </div>
+        {% include 'HteSiteBundle:Default:_stagger_left.html.twig' with {
+            'imageUrl': 'bundles/htesite/images/about_us.jpg',
+            'title': 'capabilities.section_3.title',
+            'body': 'capabilities.section_3.body'
+        } %}
 
-        <div class="row">
-            <div class="col-sm-4 col-sm-offset-1"><img src="{{ asset('bundles/htesite/images/about_us.jpg') }}" class="img-responsive" /></div>
-            <div class="col-sm-6">
-                <h3>{{ 'capabilities.section_4.title'|trans|raw }}</h3>
-                <p>{{ 'capabilities.section_4.body'|trans|raw }}</p>
-            </div>
-        </div>
+        {% include 'HteSiteBundle:Default:_stagger_right.html.twig' with {
+            'imageUrl': 'bundles/htesite/images/product_samples.jpg',
+            'title': 'capabilities.section_4.title',
+            'body': 'capabilities.section_4.body'
+        } %}
 
-        <div class="row">
-            <div class="col-sm-4 col-sm-offset-1"><img src="{{ asset('bundles/htesite/images/about_us.jpg') }}" class="img-responsive" /></div>
-            <div class="col-sm-6">
-                <h3>{{ 'capabilities.section_5.title'|trans|raw }}</h3>
-                <p>{{ 'capabilities.section_5.body'|trans|raw }}</p>
-            </div>
-        </div>
+        {% include 'HteSiteBundle:Default:_stagger_left.html.twig' with {
+            'imageUrl': 'bundles/htesite/images/about_us.jpg',
+            'title': 'capabilities.section_5.title',
+            'body': 'capabilities.section_5.body'
+        } %}
 
-        <div class="row">
-            <div class="col-sm-4 col-sm-offset-1"><img src="{{ asset('bundles/htesite/images/about_us.jpg') }}" class="img-responsive" /></div>
-            <div class="col-sm-6">
-                <h3>{{ 'capabilities.section_6.title'|trans|raw }}</h3>
-                <p>{{ 'capabilities.section_6.body'|trans|raw }}</p>
-            </div>
-        </div>
+        {% include 'HteSiteBundle:Default:_stagger_right.html.twig' with {
+            'imageUrl': 'bundles/htesite/images/product_samples.jpg',
+            'title': 'capabilities.section_6.title',
+            'body': 'capabilities.section_6.body'
+        } %}
 
-        <div class="row">
-            <div class="col-sm-4 col-sm-offset-1"><img src="{{ asset('bundles/htesite/images/about_us.jpg') }}" class="img-responsive" /></div>
-            <div class="col-sm-6">
-                <h3>{{ 'capabilities.section_7.title'|trans|raw }}</h3>
-                <p>{{ 'capabilities.section_7.body'|trans|raw }}</p>
-            </div>
-        </div>
+        {% include 'HteSiteBundle:Default:_stagger_left.html.twig' with {
+            'imageUrl': 'bundles/htesite/images/about_us.jpg',
+            'title': 'capabilities.section_7.title',
+            'body': 'capabilities.section_7.body'
+        } %}
     </div>
 {% endblock %}

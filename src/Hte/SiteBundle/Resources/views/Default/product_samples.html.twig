@@ -4,44 +4,34 @@
 
 {% block container %}
     <div class="stagger">
-        <div class="row">
-            <div class="col-sm-4 col-sm-offset-1"><img src="{{ asset('bundles/htesite/images/about_us.jpg') }}" class="img-responsive" /></div>
-            <div class="col-sm-6">
-                <h3>{{ 'product_samples.section_1.title'|trans|raw }}</h3>
-                <p>{{ 'product_samples.section_1.body'|trans|raw }}</p>
-            </div>
-        </div>
+        {% include 'HteSiteBundle:Default:_stagger_left.html.twig' with {
+            'imageUrl': 'bundles/htesite/images/about_us.jpg',
+            'title': 'product_samples.section_1.title',
+            'body': 'product_samples.section_1.body'
+        } %}
 
-        <div class="row">
-            <div class="col-sm-4 col-sm-offset-1"><img src="{{ asset('bundles/htesite/images/product_samples.jpg') }}" class="img-responsive" /></div>
-            <div class="col-sm-6">
-                <h3>{{ 'product_samples.section_2.title'|trans|raw }}</h3>
-                <p>{{ 'product_samples.section_2.body'|trans|raw }}</p>
-            </div>
-        </div>
+        {% include 'HteSiteBundle:Default:_stagger_right.html.twig' with {
+            'imageUrl': 'bundles/htesite/images/product_samples.jpg',
+            'title': 'product_samples.section_2.title',
+            'body': 'product_samples.section_2.body'
+        } %}
 
-        <div class="row">
-            <div class="col-sm-4 col-sm-offset-1"><img src="{{ asset('bundles/htesite/images/about_us.jpg') }}" class="img-responsive" /></div>
-            <div class="col-sm-6">
-                <h3>{{ 'product_samples.section_3.title'|trans|raw }}</h3>
-                <p>{{ 'product_samples.section_3.body'|trans|raw }}</p>
-            </div>
-        </div>
+        {% include 'HteSiteBundle:Default:_stagger_left.html.twig' with {
+            'imageUrl': 'bundles/htesite/images/about_us.jpg',
+            'title': 'product_samples.section_3.title',
+            'body': 'product_samples.section_3.body'
+        } %}
 
-        <div class="row">
-            <div class="col-sm-4 col-sm-offset-1"><img src="{{ asset('bundles/htesite/images/product_samples.jpg') }}" class="img-responsive" /></div>
-            <div class="col-sm-6">
-                <h3>{{ 'product_samples.section_4.title'|trans|raw }}</h3>
-                <p>{{ 'product_samples.section_4.body'|trans|raw }}</p>
-            </div>
-        </div>
+        {% include 'HteSiteBundle:Default:_stagger_right.html.twig' with {
+            'imageUrl': 'bundles/htesite/images/product_samples.jpg',
+            'title': 'product_samples.section_4.title',
+            'body': 'product_samples.section_4.body'
+        } %}
 
-        <div class="row">
-            <div class="col-sm-4 col-sm-offset-1"><img src="{{ asset('bundles/htesite/images/about_us.jpg') }}" class="img-responsive" /></div>
-            <div class="col-sm-6">
-                <h3>{{ 'product_samples.section_5.title'|trans|raw }}</h3>
-                <p>{{ 'product_samples.section_5.body'|trans|raw }}</p>
-            </div>
-        </div>
+        {% include 'HteSiteBundle:Default:_stagger_left.html.twig' with {
+            'imageUrl': 'bundles/htesite/images/about_us.jpg',
+            'title': 'product_samples.section_5.title',
+            'body': 'product_samples.section_5.body'
+        } %}
     </div>
 {% endblock %}

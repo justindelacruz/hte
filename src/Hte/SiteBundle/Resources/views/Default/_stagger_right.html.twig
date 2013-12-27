@@ -1,0 +1,19 @@
+{#
+ # Vars:
+ # imageUrl      string Relative URL (e.g. bundles/htesite/images/about_us.jpg)
+ # title         string Reference to translation file
+ # body          string Reference to translation file
+ # buttonRoute   string
+ # buttonText    string Reference to translation file
+ #}
+<div class="row">
+    <div class="visible-xs col-sm-4"><img src="{{ asset(imageUrl) }}" class="img-responsive" /></div>
+    <div class="col-sm-6 col-sm-offset-1">
+        <h3>{{ title|trans|raw }}</h3>
+        <p>{{ body|trans|raw }}</p>
+        {% if buttonRoute is defined and buttonText is defined %}
+            <a href="{{ path(buttonRoute) }}" class="h-button">{{ buttonText|trans|raw }}</a>
+        {% endif %}
+    </div>
+    <div class="hidden-xs col-sm-4"><img src="{{ asset('bundles/htesite/images/product_samples.jpg') }}" class="img-responsive" /></div>
+</div>
