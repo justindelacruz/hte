@@ -75,15 +75,39 @@
     color: #EBEBEB;
 }
 
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus,
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-    background-color: #333;
-}
-
 @media (min-width: 768px) {
     .h-navbar {
         display: none;
     }
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #EBEBEB;
+}
+
+ {
+    color: #EBEBEB;
+    background-color: #333;
+}
+
+.navbar-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #EBEBEB;
+    background-color: #3f4043;
 }
 
 /* Stagger */
