@@ -64,6 +64,11 @@
     color: #EBEBEB;
 }
 
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    background-color: #333;
+}
+
 @media (min-width: 768px) {
     .h-navbar {
         display: none;
