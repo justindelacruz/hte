@@ -10,8 +10,77 @@
 .h-header img {
     display: inline;
 }
-.stagger > div {
-    clear: both;
+
+/* Desktop Nav */
+.h-nav-justified {
+    display: none; /* hide for small windows */
+    background-color: #56575a;
+}
+
+.nav-justified > li > a {
+    color: #EBEBEB;
+}
+
+.nav .active {
+    background-color: #333;
+}
+
+.nav > li > a {
+    padding: 5px 5px;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: #333;
+}
+
+@media (min-width: 768px) {
+    .h-nav-justified {
+        display: block;
+    }
+    .nav-justified {
+        margin: 0 auto;
+    }
+
+    .nav > li > a {
+        padding: 15px 5px;
+    }
+}
+
+/* Mobile Nav */
+.h-navbar {
+    display: block;
+}
+
+.navbar-default {
+    background-color: #56575a;
+    border-color: #56575a;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-default .navbar-brand {
+    color: #EBEBEB;
+}
+
+@media (min-width: 768px) {
+    .h-navbar {
+        display: none;
+    }
+}
+
+/* Stagger */
+#main {
+    width: 100%;
+}
+.stagger {
+}
+
+.stagger .row {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 5px solid #2e2d2d;
 }
 
 .stagger .h-button {
@@ -28,9 +97,9 @@
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .stagger .h-button {
-        width: 33%;
+        width: 50%;
     }
 }
 
@@ -39,8 +108,16 @@
 }
 
 .h-footer {
-    background-color: #2e2d2d;
-    color: #FFF;
+    background-color: #2E2D2D;
+    color: #EBEBEB;
+}
+
+.h-footer a.top-link {
+    color: #EBEBEB;
+}
+
+.h-footer a.top-link:hover {
+    color: #428bca;
 }
 
 /* Contact Us */

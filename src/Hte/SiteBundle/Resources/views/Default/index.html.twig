@@ -3,8 +3,8 @@
 {% block container %}
 <div class="stagger">
     <div class="row">
-        <div class="col-sm-4"><img src="{{ asset('bundles/htesite/images/about_us.jpg') }}" class="img-responsive" /></div>
-        <div class="col-sm-8">
+        <div class="col-sm-4 col-sm-offset-1"><img src="{{ asset('bundles/htesite/images/about_us.jpg') }}" class="img-responsive" /></div>
+        <div class="col-sm-6">
             <h3>{{ 'homepage.section_1.title'|trans|raw }}</h3>
             <p>{{ 'homepage.section_1.body'|trans|raw }}</p>
             <a href="{{ path('hte_about') }}" class="h-button">{{ 'homepage.section_1.button'|trans|raw }}</a>
@@ -12,7 +12,7 @@
     </div>
 
     <div class="row">
-        <div class="col-sm-8">
+        <div class="col-sm-6 col-sm-offset-1">
             <h3>{{ 'homepage.section_2.title'|trans|raw }}</h3>
             <p>{{ 'homepage.section_2.body'|trans|raw }}</p>
             <a href="{{ path('hte_product_samples') }}" class="h-button">{{ 'homepage.section_2.button'|trans|raw }}</a>
@@ -21,8 +21,8 @@
     </div>
 
     <div class="row">
-        <div class="col-sm-4"><img src="{{ asset('bundles/htesite/images/capabilities.jpg') }}" class="img-responsive" /></div>
-        <div class="col-sm-8">
+        <div class="col-sm-4 col-sm-offset-1"><img src="{{ asset('bundles/htesite/images/capabilities.jpg') }}" class="img-responsive" /></div>
+        <div class="col-sm-6">
             <h3>{{ 'homepage.section_3.title'|trans|raw }}</h3>
             <p>{{ 'homepage.section_3.body'|trans|raw }}</p>
             <a href="{{ path('hte_capabilities') }}" class="h-button">{{ 'homepage.section_3.button'|trans|raw }}</a>
@@ -30,7 +30,7 @@
     </div>
 
     <div class="row">
-        <div class="col-sm-8">
+        <div class="col-sm-6 col-sm-offset-1">
             <h3>{{ 'homepage.section_4.title'|trans|raw }}</h3>
             <p>{{ 'homepage.section_4.body'|trans|raw }}</p>
             <a href="{{ path('hte_contact') }}" class="h-button">{{ 'homepage.section_4.button'|trans|raw }}</a>
