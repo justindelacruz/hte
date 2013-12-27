@@ -22,11 +22,21 @@
 }
 
 .nav .active {
-    background-color: #333;
+    background-color: #3f4043;
 }
 
 .nav > li > a {
-    padding: 5px 5px;
+    padding: 15px 5px 11px;
+}
+.nav > li.active > a:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
@@ -49,6 +59,7 @@
 /* Mobile Nav */
 .h-navbar {
     display: block;
+    margin-bottom: 0;
 }
 
 .navbar-default {
@@ -92,8 +103,8 @@
     display: block;
     background-color: #d80303;
     color: #FFF;
-    width: 75%;
-    margin: 0 auto;
+    width: 50%;
+    margin: 30px auto 0;
     text-align: center;
     padding: 10px 10px;
 
@@ -104,7 +115,7 @@
 
 @media (min-width: 1200px) {
     .stagger .h-button {
-        width: 50%;
+        width: 33%;
     }
 }
 
@@ -112,9 +123,11 @@
     background-color: #8C0101;
 }
 
+/* Footer */
 .h-footer {
     background-color: #2E2D2D;
     color: #EBEBEB;
+    padding: 20px 0;
 }
 
 .h-footer a.top-link {

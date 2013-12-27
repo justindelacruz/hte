@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>{% block title %}{% endblock %}HTE Enterprises - Steel and Aluminum Alloy Product Manufacturing</title>
+    <title>{% block title %}{% endblock %}HTE Enterprise - Steel and Aluminum Alloy Product Manufacturing</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,7 +45,7 @@
     </a>
 </div>
 
-<div class="h-nav-justified">
+<nav class="h-nav-justified" role="navigation">
     <div class="container">
         <ul class="nav nav-justified">
             <li{% if app.request.get('_route') == 'hte_index' %} class="active"{% endif %}><a href="{{ path('hte_index') }}">Home</a></li>
@@ -55,7 +55,7 @@
             <li{% if app.request.get('_route') == 'hte_contact' %} class="active"{% endif %}><a href="{{ path('hte_contact') }}">Contact</a></li>
         </ul>
     </div>
-</div>
+</nav>
 
 <nav class="h-navbar navbar navbar-default" role="navigation">
     <!-- Brand and toggle get grouped for better mobile display -->
