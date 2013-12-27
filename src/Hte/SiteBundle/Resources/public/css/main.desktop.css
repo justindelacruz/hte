@@ -195,7 +195,7 @@ a.h-button:hover {
     color: #2a2a2a;
 }
 
-a.h-button:hover {
+.h-footer a.h-button:hover {
     background-color: #AAA;
     text-decoration: none;
 }
