@@ -168,6 +168,11 @@
     color: #428bca;
 }
 
+.h-footer address strong {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
 /* Contact Us */
 .h-contact {
     text-align: center;
@@ -193,28 +198,4 @@
 
 .h-contact td span {
     margin-right: 5px;
-}
-
-/* Skip navigation */
-#h-skip a
-{
-    position: absolute;
-    left: -10000px;
-    top: auto;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-}
-
-#h-skip a:focus
-{
-    width: 100%;
-    display: block;
-    text-align: center;
-    background-color: #CCC;
-    padding: 5px 0;
-
-    position: static;
-    width: auto;
-    height: auto;
 }
