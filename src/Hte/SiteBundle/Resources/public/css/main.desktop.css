@@ -103,7 +103,7 @@
     display: block;
     background-color: #d80303;
     color: #FFF;
-    width: 50%;
+    width: 75%;
     margin: 30px auto 0;
     text-align: center;
     padding: 10px 10px;
@@ -112,6 +112,12 @@
     border-radius: 5px;
 }
 
+
+@media (min-width: 768px) {
+    .stagger .h-button {
+        width: 50%;
+    }
+}
 
 @media (min-width: 1200px) {
     .stagger .h-button {
