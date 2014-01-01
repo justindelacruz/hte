@@ -3,6 +3,7 @@
 .h-footer {
   background-color: #2E2D2D;
   color: #EBEBEB;
+  border-top: 2px solid red;
   padding: 20px 0;
   text-align: center;
   font-size: 90%;
@@ -11,7 +12,7 @@
     & {
       padding: 20px 0;
       text-align: left;
-      font-size: 100%;
+      font-size: 13px;
     }
   }
 
