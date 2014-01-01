@@ -1,0 +1,57 @@
+.h-header {
+  background-color: #2e2d2d;
+  text-align: center;
+
+  span {
+    display: none;
+  }
+
+  img {
+    display: inline;
+    width: 350px;
+  }
+}
+
+/* Stagger */
+#main {
+  width: 100%; /* full fluid layout */
+}
+
+a.h-button {
+  display: block;
+  width: 75%;
+  text-align: center;
+  padding: 10px 10px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+
+  .stagger & {
+    background-color: #d80303;
+    color: #FFF;
+    margin-top: 30px;
+  }
+
+  &:hover {
+    background-color: #8C0101;
+  }
+
+  @media (min-width: 768px) {
+    & {
+      width: 50%;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    & {
+      width: 33%;
+    }
+  }
+}
+
+.stagger .row {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 5px solid #2e2d2d;
+}

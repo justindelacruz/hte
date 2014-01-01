@@ -1,0 +1,101 @@
+/* Desktop Nav */
+.h-nav-justified {
+  display: none; /* hide for small windows */
+  background-color: #56575a;
+
+  @media (min-width: 768px) {
+    & {
+      display: block;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-justified {
+    margin: 0 auto;
+  }
+}
+
+.nav {
+  .active {
+    background-color: #3f4043;
+  }
+
+  li {
+    > a {
+      color: #ebebeb;
+      padding: 15px 5px 11px;
+    }
+
+    @media (min-width: 768px) {
+      > a {
+        padding: 15px 5px;
+      }
+    }
+
+    &.active > a:after {
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 2px;
+      width: 100%;
+      background-color: red;
+    }
+
+    > a:hover,
+    > a:focus {
+      background-color: #333;
+    }
+  }
+}
+
+/* Mobile Nav */
+.h-navbar {
+  display: block;
+  margin-bottom: 0;
+}
+
+.navbar-default {
+  background-color: #56575a;
+  border-color: #56575a;
+}
+
+.navbar-default .navbar-toggle {
+  border: none;
+}
+
+.navbar-default .navbar-brand {
+  color: #EBEBEB;
+}
+
+@media (min-width: 768px) {
+  .h-navbar {
+    display: none;
+  }
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #EBEBEB;
+}
+
+.navbar-nav {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #EBEBEB;
+  background-color: #333;
+}
