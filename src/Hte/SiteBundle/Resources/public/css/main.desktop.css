@@ -66,7 +66,11 @@
     width: 100%;
   }
 }
-/* line 68, ../sass/_index.scss */
+/* line 66, ../sass/_index.scss */
+#main .stagger .row h3 {
+  margin-top: 0px;
+}
+/* line 72, ../sass/_index.scss */
 #main a.h-button {
   margin-top: 30px;
 }
