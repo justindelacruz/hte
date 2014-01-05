@@ -7,10 +7,17 @@ body {
   background-color: #ffffff;
 }
 
-h3 {
+h1,h2,h3 {
   font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 30px;
   font-weight: 900;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
 }
 
 p {

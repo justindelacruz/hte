@@ -3,6 +3,11 @@
 {% block title %}About {% endblock %}
 
 {% block container %}
+    <div class="mini-hero">
+        <h2>About Us</h2>
+        <p>Experts in manufacturing with over 35 years of experience.</p>
+    </div>
+
     <div class="stagger">
         {% include 'HteSiteBundle:Default:_stagger_left.html.twig' with {
             'imageUrl': 'bundles/htesite/images/about_us.jpg',
@@ -18,8 +23,8 @@
 
         {% include 'HteSiteBundle:Default:_stagger_left.html.twig' with {
             'imageUrl': 'bundles/htesite/images/about_us.jpg',
-            'title': 'about_us.section_1.title',
-            'body': 'about_us.section_1.body'
+            'title': 'about_us.section_3.title',
+            'body': 'about_us.section_3.body'
         } %}
     </div>
 {% endblock %}
