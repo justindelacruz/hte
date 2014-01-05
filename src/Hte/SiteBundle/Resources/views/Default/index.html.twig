@@ -1,14 +1,21 @@
 {% extends 'HteSiteBundle:Default:_main.html.twig' %}
 
 {% block container %}
+<div class="hero">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-6">
+                <h3>{{ 'homepage.section_1.title'|trans|raw }}</h3>
+                <p>
+                    {{ 'homepage.section_1.body'|trans|raw }}
+                </p>
+                <a href="{{ path('hte_about') }}" class="h-button">{{ 'homepage.section_1.button'|trans|raw }}</a>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="stagger">
-    {% include 'HteSiteBundle:Default:_stagger_left.html.twig' with {
-        'imageUrl': 'bundles/htesite/images/about_us.jpg',
-        'title': 'homepage.section_1.title',
-        'body': 'homepage.section_1.body',
-        'buttonRoute': 'hte_about',
-        'buttonText': 'homepage.section_1.button'
-    } %}
 
     {% include 'HteSiteBundle:Default:_stagger_right.html.twig' with {
         'imageUrl': 'bundles/htesite/images/product_samples.jpg',
