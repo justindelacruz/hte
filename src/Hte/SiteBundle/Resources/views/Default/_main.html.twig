@@ -84,7 +84,10 @@
     </nav>
 
     <div id="main" class="container {% block pageClass %}{% endblock %}" role="main">
-        {% block container %}{% endblock %}
+        {% block fullWidthContainer %}{% endblock %}
+        <div class="fixed-body">
+            {% block container %}{% endblock %}
+        </div>
     </div>
 
     <div class="h-footer" id="footer">

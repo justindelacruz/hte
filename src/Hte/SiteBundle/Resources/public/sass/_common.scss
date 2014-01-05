@@ -30,8 +30,9 @@ p {
 }
 
 @media (min-width: 992px) {
-  .container {
+  .fixed-body {
     width: 970px;
+    margin: 0 auto;
   }
 }
 

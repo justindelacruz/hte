@@ -52,27 +52,22 @@
   margin-bottom: 40px;
 }
 /* line 49, ../sass/_index.scss */
-#main .stagger .row > .container {
-  margin-right: auto;
-  margin-left: auto;
-}
-/* line 54, ../sass/_index.scss */
 #main .stagger .row .image-container {
   width: 100%;
   margin-bottom: 10px;
 }
 @media (min-width: 768px) {
-  /* line 59, ../sass/_index.scss */
+  /* line 54, ../sass/_index.scss */
   #main .stagger .row .image-container {
     width: 50%;
     max-width: 480px;
   }
-  /* line 64, ../sass/_index.scss */
+  /* line 59, ../sass/_index.scss */
   #main .stagger .row .image-container img {
     width: 100%;
   }
 }
-/* line 70, ../sass/_index.scss */
+/* line 65, ../sass/_index.scss */
 #main .stagger .row .image-container .image-row a {
   display: inline-block;
   width: 48%;
@@ -81,7 +76,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 76, ../sass/_index.scss */
+/* line 71, ../sass/_index.scss */
 #main .stagger .row .image-container .image-row a img {
   width: 100%;
   transition: box-shadow 0.5s linear;
@@ -89,22 +84,22 @@
   -moz-box-shadow: 0 0 4px #aaaaaa;
   box-shadow: 0 0 4px #aaaaaa;
 }
-/* line 82, ../sass/_index.scss */
+/* line 77, ../sass/_index.scss */
 #main .stagger .row .image-container .image-row a:hover img {
   transition: box-shadow 0.1s linear;
   -webkit-box-shadow: 0 0 4px #111111;
   -moz-box-shadow: 0 0 4px #111111;
   box-shadow: 0 0 4px #111111;
 }
-/* line 90, ../sass/_index.scss */
+/* line 85, ../sass/_index.scss */
 #main .stagger .row h3 {
   margin-top: 0px;
 }
-/* line 96, ../sass/_index.scss */
+/* line 91, ../sass/_index.scss */
 #main a.h-button {
   margin-top: 30px;
 }
-/* line 100, ../sass/_index.scss */
+/* line 95, ../sass/_index.scss */
 #main #product-sample-carousel {
   -webkit-box-shadow: 2px 2px 4px #666666;
   -moz-box-shadow: 2px 2px 4px #666666;
@@ -112,17 +107,17 @@
   width: 80%;
   margin: 0 auto;
 }
-/* line 106, ../sass/_index.scss */
+/* line 101, ../sass/_index.scss */
 #main #product-sample-carousel .carousel-indicators li {
   border-color: #2e2d2d;
   background-color: #2e2d2d;
 }
-/* line 111, ../sass/_index.scss */
+/* line 106, ../sass/_index.scss */
 #main #product-sample-carousel .carousel-indicators .active {
   border-color: red;
   background-color: red;
 }
-/* line 118, ../sass/_index.scss */
+/* line 113, ../sass/_index.scss */
 #main #product-sample-carousel .carousel-control.left {
   background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0.01)), color-stop(100%, rgba(0, 0, 0, 0.0001)));
   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.0001) 100%);
@@ -130,7 +125,7 @@
   background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.0001) 100%);
   background-image: linear-gradient(left, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.0001) 100%);
 }
-/* line 122, ../sass/_index.scss */
+/* line 117, ../sass/_index.scss */
 #main #product-sample-carousel .carousel-control.right {
   background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0.0001)), color-stop(100%, rgba(0, 0, 0, 0.01)));
   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.01) 100%);
@@ -138,7 +133,7 @@
   background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.01) 100%);
   background-image: linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.01) 100%);
 }
-/* line 126, ../sass/_index.scss */
+/* line 121, ../sass/_index.scss */
 #main #product-sample-carousel .carousel-control span {
   font-size: 200%;
   color: #666;
@@ -184,26 +179,27 @@ p {
 
 @media (min-width: 992px) {
   /* line 33, ../sass/_common.scss */
-  .container {
+  .fixed-body {
     width: 970px;
+    margin: 0 auto;
   }
 }
-/* line 38, ../sass/_common.scss */
+/* line 39, ../sass/_common.scss */
 .h-header {
   background-color: #2e2d2d;
   text-align: center;
 }
-/* line 42, ../sass/_common.scss */
+/* line 43, ../sass/_common.scss */
 .h-header span {
   display: none;
 }
-/* line 46, ../sass/_common.scss */
+/* line 47, ../sass/_common.scss */
 .h-header img {
   display: inline;
   width: 350px;
 }
 
-/* line 53, ../sass/_common.scss */
+/* line 54, ../sass/_common.scss */
 a.h-button {
   display: block;
   width: 75%;
@@ -216,19 +212,19 @@ a.h-button {
   background-color: #d80303;
   color: #FFF;
 }
-/* line 65, ../sass/_common.scss */
+/* line 66, ../sass/_common.scss */
 a.h-button:hover {
   background-color: #8C0101;
   text-decoration: none;
 }
 @media (min-width: 768px) {
-  /* line 71, ../sass/_common.scss */
+  /* line 72, ../sass/_common.scss */
   a.h-button {
     width: 66%;
   }
 }
 @media (min-width: 992px) {
-  /* line 77, ../sass/_common.scss */
+  /* line 78, ../sass/_common.scss */
   a.h-button {
     width: 50%;
   }
