@@ -26,3 +26,8 @@ To build this project in dev:
 5. Clear Symfony cache: `php app/console cache:clear`  
 
 This project was made using PhpStorm.
+
+Changelog
+==========
+v0.1
+- Set up site w/Symfony, Bootstrap, Sass, and Compass
