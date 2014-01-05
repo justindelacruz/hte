@@ -35,39 +35,47 @@
   text-align: center;
 }
 /* line 33, ../sass/_index.scss */
+#main .mini-hero h2 {
+  font-weight: 700;
+}
+/* line 36, ../sass/_index.scss */
+#main .mini-hero h2 span {
+  font-weight: 900;
+}
+/* line 40, ../sass/_index.scss */
 #main .mini-hero p {
   font-size: 20px;
   line-height: 1.5;
 }
 @media (min-width: 768px) {
-  /* line 33, ../sass/_index.scss */
+  /* line 40, ../sass/_index.scss */
   #main .mini-hero p {
     font-size: 25px;
   }
 }
-/* line 44, ../sass/_index.scss */
+/* line 51, ../sass/_index.scss */
 #main .stagger .row {
   background-color: #FFF;
   margin-top: 40px;
   margin-bottom: 40px;
 }
-/* line 49, ../sass/_index.scss */
+/* line 56, ../sass/_index.scss */
 #main .stagger .row .image-container {
   width: 100%;
   margin-bottom: 10px;
 }
 @media (min-width: 768px) {
-  /* line 54, ../sass/_index.scss */
+  /* line 61, ../sass/_index.scss */
   #main .stagger .row .image-container {
     width: 50%;
     max-width: 480px;
   }
-  /* line 59, ../sass/_index.scss */
+  /* line 66, ../sass/_index.scss */
   #main .stagger .row .image-container img {
     width: 100%;
   }
 }
-/* line 65, ../sass/_index.scss */
+/* line 72, ../sass/_index.scss */
 #main .stagger .row .image-container .image-row a {
   display: inline-block;
   width: 48%;
@@ -76,7 +84,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 71, ../sass/_index.scss */
+/* line 78, ../sass/_index.scss */
 #main .stagger .row .image-container .image-row a img {
   width: 100%;
   transition: box-shadow 0.5s linear;
@@ -84,28 +92,28 @@
   -moz-box-shadow: 0 0 4px #aaaaaa;
   box-shadow: 0 0 4px #aaaaaa;
 }
-/* line 77, ../sass/_index.scss */
+/* line 84, ../sass/_index.scss */
 #main .stagger .row .image-container .image-row a:hover img {
   transition: box-shadow 0.1s linear;
   -webkit-box-shadow: 0 0 4px #111111;
   -moz-box-shadow: 0 0 4px #111111;
   box-shadow: 0 0 4px #111111;
 }
-/* line 85, ../sass/_index.scss */
+/* line 92, ../sass/_index.scss */
 #main .stagger .row h3 {
   margin-top: 10px;
 }
 @media (min-width: 768px) {
-  /* line 89, ../sass/_index.scss */
+  /* line 96, ../sass/_index.scss */
   #main .stagger .row h3 {
     margin-top: 0px;
   }
 }
-/* line 97, ../sass/_index.scss */
+/* line 104, ../sass/_index.scss */
 #main a.h-button {
   margin-top: 30px;
 }
-/* line 101, ../sass/_index.scss */
+/* line 108, ../sass/_index.scss */
 #main #product-sample-carousel {
   -webkit-box-shadow: 2px 2px 4px #666666;
   -moz-box-shadow: 2px 2px 4px #666666;
@@ -113,17 +121,17 @@
   width: 80%;
   margin: 0 auto;
 }
-/* line 107, ../sass/_index.scss */
+/* line 114, ../sass/_index.scss */
 #main #product-sample-carousel .carousel-indicators li {
   border-color: #2e2d2d;
   background-color: #2e2d2d;
 }
-/* line 112, ../sass/_index.scss */
+/* line 119, ../sass/_index.scss */
 #main #product-sample-carousel .carousel-indicators .active {
   border-color: red;
   background-color: red;
 }
-/* line 119, ../sass/_index.scss */
+/* line 126, ../sass/_index.scss */
 #main #product-sample-carousel .carousel-control.left {
   background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0.01)), color-stop(100%, rgba(0, 0, 0, 0.0001)));
   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.0001) 100%);
@@ -131,7 +139,7 @@
   background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.0001) 100%);
   background-image: linear-gradient(left, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.0001) 100%);
 }
-/* line 123, ../sass/_index.scss */
+/* line 130, ../sass/_index.scss */
 #main #product-sample-carousel .carousel-control.right {
   background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0.0001)), color-stop(100%, rgba(0, 0, 0, 0.01)));
   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.01) 100%);
@@ -139,7 +147,7 @@
   background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.01) 100%);
   background-image: linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.01) 100%);
 }
-/* line 127, ../sass/_index.scss */
+/* line 134, ../sass/_index.scss */
 #main #product-sample-carousel .carousel-control span {
   font-size: 200%;
   color: #666;
