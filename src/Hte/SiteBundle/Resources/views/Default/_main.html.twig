@@ -19,11 +19,9 @@
     {# <meta property="fb:admins" content="1360179707"> #}
 
     {% block stylesheets %}
-        {% stylesheets 'bundles/htesite/css/*' filter='cssrewrite' %}
-            <link rel="stylesheet" href="{{ asset_url }}" />
-        {% endstylesheets %}
-    <!--<link href="{{ asset('bundles/htesite/css/bootstrap.css') }}" rel="stylesheet">
-    <link href="{{ asset('bundles/htesite/css/main.desktop.css') }}" rel="stylesheet"> -->
+    {% stylesheets 'bundles/htesite/css/*' filter='cssrewrite' %}
+        <link rel="stylesheet" href="{{ asset_url }}" />
+    {% endstylesheets %}
     {% endblock %}
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -138,8 +136,9 @@
 </div>
 
 {% block javascripts %}
-<script src="https://code.jquery.com/jquery.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="{{ asset('bundles/htesite/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('bundles/htesite/js/lightbox-2.6.min.js') }}"></script>
 {% endblock %}
 </body>
 </html>
