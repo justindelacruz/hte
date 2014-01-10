@@ -1,0 +1,12 @@
+{#
+ # Vars:
+ # smallImageUrl      string Relative URL (e.g. bundles/htesite/images/small/about_us.jpg)
+ # largeImageUrl      string Relative URL (e.g. bundles/htesite/images/large/about_us.jpg)
+ # title              string Reference to translation file
+ # body               string Reference to translation file
+ #}
+<div class="col-sm-4 image-container">
+    <a href="{{ asset(largeImageUrl) }}" data-lightbox="lightbox" title="{{ title|trans|raw }}"><img src="{{ asset(smallImageUrl) }}" class="img-responsive" /></a>
+    <h3>{{ title|trans|raw }}</h3>
+    <p>{{ body|trans|raw }}</p>
+</div>
