@@ -30,5 +30,11 @@ This project was made using PhpStorm.
 
 Changelog
 ==========
-v0.1
+v0.1 - 1/1/14
 - Set up site w/Symfony, Bootstrap, Sass, and Compass
+
+0.2.0 - 1/5/14
+- Use Assetic for CSS assets
+- Add banners and headers
+- Add carousel (Bootstrap)
+- Add lightbox (v.2)
