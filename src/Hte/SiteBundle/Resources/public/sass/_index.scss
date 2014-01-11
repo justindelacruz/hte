@@ -72,8 +72,15 @@
 
           img {
             width: 100%;
+            @include box-shadow(1px 1px 4px #AAA);
+            transition: box-shadow 0.1s linear;
           }
-        }
+
+          & a:hover img {
+              @include box-shadow(1px 1px 4px #111);
+              transition: box-shadow 0.1s linear;
+            }
+          }
 
         .image-row {
           a {
@@ -84,13 +91,6 @@
 
             img {
               width: 100%;
-              transition: box-shadow 0.5s linear;
-              @include box-shadow(0 0 4px #AAA);
-            }
-
-            &:hover img {
-              transition: box-shadow 0.1s linear;
-              @include box-shadow(0 0 4px #111);
             }
           }
         }
