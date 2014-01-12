@@ -1,6 +1,6 @@
 HTE
 ==========
-This is my side project for a small business.
+This repo is a freelance project for a small business.
 
 This project uses these technologies:
 *   PHP 5.4
@@ -28,9 +28,13 @@ To build this project in dev:
 
 This project was made using PhpStorm.
 
+To Do
+==========
+Implement as static site (Sculpin, Jekyll, etc)
+
 Changelog
 ==========
-v0.1 - 1/1/14
+0.1.0 - 1/1/14
 - Set up site w/Symfony, Bootstrap, Sass, and Compass
 
 0.2.0 - 1/5/14
