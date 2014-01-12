@@ -28,9 +28,10 @@ To build this project in dev:
 
 This project was made using PhpStorm.
 
-To Do
+Wishlist
 ==========
-Implement as static site (Sculpin, Jekyll, etc)
+- Implement as static site (Sculpin, Jekyll, etc)
+- Pull assets into separate bundle
 
 Changelog
 ==========
@@ -42,3 +43,9 @@ Changelog
 - Add banners and headers
 - Add carousel (Bootstrap)
 - Add lightbox (v.2)
+
+0.3.0 - 1/12/14
+- Finish adding assets (images, sprites)
+- Transition to domain
+- Convert "Capabilities" layout to 3x2 grid
+- Fix @import font
