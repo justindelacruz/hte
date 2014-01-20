@@ -9,6 +9,15 @@
   padding-bottom: 20px;
   margin-bottom: 10px;
 }
+@media (max-width: 768px) {
+  /* line 2, ../sass/_index.scss */
+  #main .hero {
+    background-image: url("../images/main-header-small.jpg");
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    padding-bottom: 20px;
+  }
+}
 @media (min-width: 768px) {
   /* line 2, ../sass/_index.scss */
   #main .hero {
@@ -19,40 +28,40 @@
     padding-top: 100px;
   }
 }
-/* line 19, ../sass/_index.scss */
+/* line 26, ../sass/_index.scss */
 #main .hero h3 {
   font-weight: 700;
 }
-/* line 22, ../sass/_index.scss */
+/* line 29, ../sass/_index.scss */
 #main .hero h3 b {
   display: block;
   font-size: 40px;
   font-weight: 900;
 }
-/* line 30, ../sass/_index.scss */
+/* line 37, ../sass/_index.scss */
 #main .mini-hero {
   text-align: center;
 }
-/* line 33, ../sass/_index.scss */
+/* line 40, ../sass/_index.scss */
 #main .mini-hero h2 {
   font-weight: 400;
 }
-/* line 36, ../sass/_index.scss */
+/* line 43, ../sass/_index.scss */
 #main .mini-hero h2 span {
   font-weight: 900;
 }
-/* line 40, ../sass/_index.scss */
+/* line 47, ../sass/_index.scss */
 #main .mini-hero p {
   font-size: 20px;
   line-height: 1.5;
 }
 @media (min-width: 768px) {
-  /* line 40, ../sass/_index.scss */
+  /* line 47, ../sass/_index.scss */
   #main .mini-hero p {
     font-size: 25px;
   }
 }
-/* line 51, ../sass/_index.scss */
+/* line 58, ../sass/_index.scss */
 #main .image-container img {
   margin: 0 auto;
   -webkit-box-shadow: 1px 1px 4px #aaaaaa;
@@ -60,43 +69,43 @@
   box-shadow: 1px 1px 4px #aaaaaa;
   transition: box-shadow 0.1s linear;
 }
-/* line 57, ../sass/_index.scss */
+/* line 64, ../sass/_index.scss */
 #main .image-container a:hover img {
   -webkit-box-shadow: 1px 1px 4px #111111;
   -moz-box-shadow: 1px 1px 4px #111111;
   box-shadow: 1px 1px 4px #111111;
   transition: box-shadow 0.1s linear;
 }
-/* line 66, ../sass/_index.scss */
+/* line 73, ../sass/_index.scss */
 #main .stagger .row {
   background-color: #FFF;
   padding-top: 40px;
   padding-bottom: 40px;
 }
-/* line 71, ../sass/_index.scss */
+/* line 78, ../sass/_index.scss */
 #main .stagger .row:not(:last-child) {
   border-bottom: 1px solid red;
 }
-/* line 75, ../sass/_index.scss */
+/* line 82, ../sass/_index.scss */
 #main .stagger .row .image-container {
   width: 100%;
   margin-bottom: 10px;
 }
 @media (min-width: 768px) {
-  /* line 80, ../sass/_index.scss */
+  /* line 87, ../sass/_index.scss */
   #main .stagger .row .image-container {
     width: 50%;
   }
-  /* line 85, ../sass/_index.scss */
+  /* line 92, ../sass/_index.scss */
   #main .stagger .row .image-container img {
     width: 100%;
   }
 }
-/* line 90, ../sass/_index.scss */
+/* line 97, ../sass/_index.scss */
 #main .stagger .row .image-container .image-row {
   text-align: center;
 }
-/* line 93, ../sass/_index.scss */
+/* line 100, ../sass/_index.scss */
 #main .stagger .row .image-container .image-row a {
   display: inline-block;
   width: 49%;
@@ -105,29 +114,34 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 99, ../sass/_index.scss */
+/* line 106, ../sass/_index.scss */
 #main .stagger .row .image-container .image-row a img {
   width: 100%;
 }
-/* line 106, ../sass/_index.scss */
+/* line 113, ../sass/_index.scss */
 #main .stagger .row h3 {
   margin-top: 10px;
 }
 @media (min-width: 768px) {
-  /* line 110, ../sass/_index.scss */
+  /* line 117, ../sass/_index.scss */
   #main .stagger .row h3 {
     margin-top: 0px;
   }
 }
-/* line 116, ../sass/_index.scss */
+/* line 123, ../sass/_index.scss */
 #main .stagger .row p {
   margin-bottom: 0;
 }
-/* line 122, ../sass/_index.scss */
+/* line 128, ../sass/_index.scss */
+#main .stagger .carousel-caption h3 {
+  color: #000;
+  font-weight: 700;
+}
+/* line 134, ../sass/_index.scss */
 #main a.h-button {
   margin-top: 30px;
 }
-/* line 126, ../sass/_index.scss */
+/* line 138, ../sass/_index.scss */
 #main #product-sample-carousel {
   -webkit-box-shadow: 2px 2px 4px #666666;
   -moz-box-shadow: 2px 2px 4px #666666;
@@ -135,17 +149,17 @@
   width: 80%;
   margin: 0 auto;
 }
-/* line 132, ../sass/_index.scss */
+/* line 144, ../sass/_index.scss */
 #main #product-sample-carousel .carousel-indicators li {
   border-color: #2e2d2d;
   background-color: #2e2d2d;
 }
-/* line 137, ../sass/_index.scss */
+/* line 149, ../sass/_index.scss */
 #main #product-sample-carousel .carousel-indicators .active {
   border-color: red;
   background-color: red;
 }
-/* line 144, ../sass/_index.scss */
+/* line 156, ../sass/_index.scss */
 #main #product-sample-carousel .carousel-control.left {
   background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0.01)), color-stop(100%, rgba(0, 0, 0, 0.0001)));
   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.0001) 100%);
@@ -153,7 +167,7 @@
   background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.0001) 100%);
   background-image: linear-gradient(left, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.0001) 100%);
 }
-/* line 148, ../sass/_index.scss */
+/* line 160, ../sass/_index.scss */
 #main #product-sample-carousel .carousel-control.right {
   background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0.0001)), color-stop(100%, rgba(0, 0, 0, 0.01)));
   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.01) 100%);
@@ -161,7 +175,7 @@
   background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.01) 100%);
   background-image: linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.01) 100%);
 }
-/* line 152, ../sass/_index.scss */
+/* line 164, ../sass/_index.scss */
 #main #product-sample-carousel .carousel-control span {
   font-size: 200%;
   color: #666;

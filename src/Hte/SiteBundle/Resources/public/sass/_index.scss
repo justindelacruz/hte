@@ -8,6 +8,13 @@
     padding-bottom: 20px;
     margin-bottom:10px;
 
+    @media (max-width: 768px) {
+      background-image: url('../images/main-header-small.jpg');
+      background-repeat: no-repeat;
+      background-position: 100% 50%;
+      padding-bottom:20px;
+    }
+
     @media (min-width: 768px) {
       background-image: url('../images/main-header.jpg');
       background-repeat: no-repeat;
@@ -116,6 +123,11 @@
       p {
         margin-bottom: 0;
       }
+    }
+
+    .carousel-caption h3 {
+      color: #000;
+      font-weight: 700;
     }
   }
 
