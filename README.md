@@ -3,11 +3,15 @@ HTE
 This repo is a freelance project for a small business.
 
 This project uses these technologies:
+*   [Symfony 2.4](http://symfony.com/)
+*   [Sass 3](http://sass-lang.com/)
+*   [Compass](http://compass-style.org/)
+*   [Bootstrap 3](http://getbootstrap.com/)
+
+This project mainly uses these languages:
 *   PHP 5.4
-*   Symfony 2.4
-*   Sass 3.2.13
-*   Compass 0.12
-*   Bootstrap 3
+*   CSS3
+*   HTML5
 
 To build this project in production:
 
