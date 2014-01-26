@@ -25,7 +25,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@bitbucket.org:hteht/assets.git"
+            "url": "git@bitbucket.org:hteht/hte-assets.git"
         }
     ],
     "scripts": {

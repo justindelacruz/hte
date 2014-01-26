@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "331e61dd472f4434ce25e3238c72e528",
+    "hash": "9c17da6c982881039df2191fa9fa4e6b",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -627,8 +627,8 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@bitbucket.org:hteht/assets.git",
-                "reference": "475ede868083d18572075f66b655c6908397fa0c"
+                "url": "git@bitbucket.org:hteht/hte-assets.git",
+                "reference": "aa20a0dce364e655fda032702c89056ef86a81c0"
             },
             "require": {
                 "php": ">=5.3.3"
@@ -641,7 +641,7 @@
             },
             "description": "HTE assets bundle",
             "homepage": "https://bitbucket.org/hteht/assets/overview",
-            "time": "2014-01-21 01:56:50"
+            "time": "2014-01-26 20:54:11"
         },
         {
             "name": "incenteev/composer-parameter-handler",
