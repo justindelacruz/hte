@@ -1,6 +1,6 @@
 {#
  # Vars:
- # imageUrl      string Relative URL (e.g. bundles/hteasset/images/about_us.jpg)
+ # imageUrl      string Relative URL (e.g. bundles/hteasset/images/about.jpg)
  # title         string Reference to translation file
  # body          string Reference to translation file
  # buttonRoute   string
@@ -9,10 +9,10 @@
 <div class="row">
     <div class="col-sm-6 image-container"><img src="{{ asset(imageUrl) }}" class="img-responsive" /></div>
     <div class="col-sm-6">
-        <h3>{{ title|trans|raw }}</h3>
-        <p>{{ body|trans|raw }}</p>
+        <h3>{{ title|trans({}, domain)|raw }}</h3>
+        <p>{{ body|trans({}, domain)|raw }}</p>
         {% if buttonRoute is defined and buttonText is defined %}
-            <a href="{{ path(buttonRoute) }}" class="h-button">{{ buttonText|trans|raw }}</a>
+            <a href="{{ path(buttonRoute) }}" class="h-button">{{ buttonText|trans({}, domain)|raw }}</a>
         {% endif %}
     </div>
 </div>

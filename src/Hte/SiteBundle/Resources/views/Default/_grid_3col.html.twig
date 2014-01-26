@@ -1,12 +1,13 @@
 {#
  # Vars:
- # smallImageUrl      string Relative URL (e.g. bundles/hteasset/images/small/about_us.jpg)
- # largeImageUrl      string Relative URL (e.g. bundles/hteasset/images/large/about_us.jpg)
+ # smallImageUrl      string Relative URL (e.g. bundles/hteasset/images/small/about.jpg)
+ # largeImageUrl      string Relative URL (e.g. bundles/hteasset/images/large/about.jpg)
  # title              string Reference to translation file
  # body               string Reference to translation file
+ # domain             string
  #}
 <div class="col-sm-4 image-container">
-    <a href="{{ asset(largeImageUrl) }}" data-lightbox="lightbox" title="{{ title|trans|raw }}"><img src="{{ asset(smallImageUrl) }}" class="img-responsive" /></a>
-    <h3>{{ title|trans|raw }}</h3>
-    <p>{{ body|trans|raw }}</p>
+    <a href="{{ asset(largeImageUrl) }}" data-lightbox="lightbox" title="{{ title|trans({}, domain)|raw }}"><img src="{{ asset(smallImageUrl) }}" class="img-responsive" /></a>
+    <h3>{{ title|trans({}, domain)|raw }}</h3>
+    <p>{{ body|trans({}, domain)|raw }}</p>
 </div>

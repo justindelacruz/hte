@@ -1,3 +1,5 @@
+{% set domain = 'home' %}
+
 {% extends 'HteSiteBundle:Default:_main.html.twig' %}
 
 {% block fullWidthContainer %}
@@ -5,11 +7,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-sm-offset-6">
-                    <h3>Looking for a <b>Manufacturer?</b></h3>
+                    <h3>{{ 'home.section_1.title'|trans({}, domain)|raw }} <b>{{ 'home.section_1.title_bold'|trans({}, domain)|raw }}</b></h3>
                     <p>
-                        {{ 'homepage.section_1.body'|trans|raw }}
+                        {{ 'home.section_1.body'|trans({}, domain)|raw }}
                     </p>
-                    <a href="{{ path('hte_about') }}" class="h-button">{{ 'homepage.section_1.button'|trans|raw }}</a>
+                    <a href="{{ path('hte_about') }}" class="h-button">{{ 'home.section_1.button'|trans({}, domain)|raw }}</a>
                 </div>
             </div>
         </div>
@@ -20,27 +22,27 @@
 <div class="stagger">
 
     {% include 'HteSiteBundle:Default:_stagger_right.html.twig' with {
-        'imageUrl': 'bundles/hteasset/images/index/1.jpg',
-        'title': 'homepage.section_2.title',
-        'body': 'homepage.section_2.body',
+        'imageUrl': 'bundles/hteasset/images/home/1.jpg',
+        'title': 'home.section_2.title',
+        'body': 'home.section_2.body',
         'buttonRoute': 'hte_product_samples',
-        'buttonText': 'homepage.section_2.button'
+        'buttonText': 'home.section_2.button'
     } %}
 
     {% include 'HteSiteBundle:Default:_stagger_left.html.twig' with {
-        'imageUrl': 'bundles/hteasset/images/index/2.jpg',
-        'title': 'homepage.section_3.title',
-        'body': 'homepage.section_3.body',
+        'imageUrl': 'bundles/hteasset/images/home/2.jpg',
+        'title': 'home.section_3.title',
+        'body': 'home.section_3.body',
         'buttonRoute': 'hte_capabilities',
-        'buttonText': 'homepage.section_3.button'
+        'buttonText': 'home.section_3.button'
     } %}
 
     {% include 'HteSiteBundle:Default:_stagger_right.html.twig' with {
-        'imageUrl': 'bundles/hteasset/images/index/3.jpg',
-        'title': 'homepage.section_4.title',
-        'body': 'homepage.section_4.body',
+        'imageUrl': 'bundles/hteasset/images/home/3.jpg',
+        'title': 'home.section_4.title',
+        'body': 'home.section_4.body',
         'buttonRoute': 'hte_contact',
-        'buttonText': 'homepage.section_4.button'
+        'buttonText': 'home.section_4.button'
     } %}
 </div>
 {% endblock %}

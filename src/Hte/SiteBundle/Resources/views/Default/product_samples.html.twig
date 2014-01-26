@@ -1,14 +1,13 @@
+{% set domain = 'product_samples' %}
+
 {% extends 'HteSiteBundle:Default:_main.html.twig' %}
 
 {% block title %}Product Samples - {% endblock %}
 
 {% block container %}
     <div class="mini-hero">
-        <h2><span>HTE</span> Product Samples</h2>
-        <p>
-            HTE specializes in five different forms of casting processes: Sand Casting, Die Casting,
-            Permanent Mold Casting, Investment Casting, and Die-Drop Forging.
-        </p>
+        <h2>{{ 'product_samples.title'|trans({}, domain)|raw }}</h2>
+        <p>{{ 'product_samples.subtitle'|trans({}, domain)|raw }}</p>
     </div>
 
     <div class="stagger">
@@ -27,42 +26,42 @@
                 <div class="carousel-inner">
                     {% spaceless %}
                         <div class="item active">
-                            <a href="{{ asset('bundles/hteasset/images/product_samples/slideshow/large/sand_casting.jpg') }}" data-lightbox="product-sample-carousel" title="{{ 'product_samples.section_1.title'|trans|raw }}">
-                                <img src="{{ asset('bundles/hteasset/images/product_samples/slideshow/small/sand_casting.jpg') }}" alt="{{ 'product_samples.section_1.title'|trans|raw }}">
+                            <a href="{{ asset('bundles/hteasset/images/product_samples/slideshow/large/sand_casting.jpg') }}" data-lightbox="product-sample-carousel" title="{{ 'product_samples.section_1.title'|trans({}, domain)|raw }}">
+                                <img src="{{ asset('bundles/hteasset/images/product_samples/slideshow/small/sand_casting.jpg') }}" alt="{{ 'product_samples.section_1.title'|trans({}, domain)|raw }}">
                                 <div class="carousel-caption">
-                                    <h3>{{ 'product_samples.section_1.title'|trans|raw }}</h3>
+                                    <h3>{{ 'product_samples.section_1.title'|trans({}, domain)|raw }}</h3>
                                 </div>
                             </a>
                         </div>
                         <div class="item">
-                            <a href="{{ asset('bundles/hteasset/images/product_samples/slideshow/large/die_casting.jpg') }}" data-lightbox="product-sample-carousel" title="{{ 'product_samples.section_2.title'|trans|raw }}">
-                                <img src="{{ asset('bundles/hteasset/images/product_samples/slideshow/small/die_casting.jpg') }}" alt="{{ 'product_samples.section_2.title'|trans|raw }}">
+                            <a href="{{ asset('bundles/hteasset/images/product_samples/slideshow/large/die_casting.jpg') }}" data-lightbox="product-sample-carousel" title="{{ 'product_samples.section_2.title'|trans({}, domain)|raw }}">
+                                <img src="{{ asset('bundles/hteasset/images/product_samples/slideshow/small/die_casting.jpg') }}" alt="{{ 'product_samples.section_2.title'|trans({}, domain)|raw }}">
                                 <div class="carousel-caption">
-                                    <h3>{{ 'product_samples.section_2.title'|trans|raw }}</h3>
+                                    <h3>{{ 'product_samples.section_2.title'|trans({}, domain)|raw }}</h3>
                                 </div>
                             </a>
                         </div>
                         <div class="item">
-                            <a href="{{ asset('bundles/hteasset/images/product_samples/slideshow/large/permanent_mold.jpg') }}" data-lightbox="product-sample-carousel" title="{{ 'product_samples.section_3.title'|trans|raw }}">
-                                <img src="{{ asset('bundles/hteasset/images/product_samples/slideshow/small/permanent_mold.jpg') }}" alt="{{ 'product_samples.section_3.title'|trans|raw }}">
+                            <a href="{{ asset('bundles/hteasset/images/product_samples/slideshow/large/permanent_mold.jpg') }}" data-lightbox="product-sample-carousel" title="{{ 'product_samples.section_3.title'|trans({}, domain)|raw }}">
+                                <img src="{{ asset('bundles/hteasset/images/product_samples/slideshow/small/permanent_mold.jpg') }}" alt="{{ 'product_samples.section_3.title'|trans({}, domain)|raw }}">
                                 <div class="carousel-caption">
-                                    <h3>{{ 'product_samples.section_3.title'|trans|raw }}</h3>
+                                    <h3>{{ 'product_samples.section_3.title'|trans({}, domain)|raw }}</h3>
                                 </div>
                             </a>
                         </div>
                         <div class="item">
-                            <a href="{{ asset('bundles/hteasset/images/product_samples/slideshow/large/investment_casting.jpg') }}" data-lightbox="product-sample-carousel" title="{{ 'product_samples.section_4.title'|trans|raw }}">
-                                <img src="{{ asset('bundles/hteasset/images/product_samples/slideshow/small/investment_casting.jpg') }}" alt="{{ 'product_samples.section_4.title'|trans|raw }}">
+                            <a href="{{ asset('bundles/hteasset/images/product_samples/slideshow/large/investment_casting.jpg') }}" data-lightbox="product-sample-carousel" title="{{ 'product_samples.section_4.title'|trans({}, domain)|raw }}">
+                                <img src="{{ asset('bundles/hteasset/images/product_samples/slideshow/small/investment_casting.jpg') }}" alt="{{ 'product_samples.section_4.title'|trans({}, domain)|raw }}">
                                 <div class="carousel-caption">
-                                    <h3>{{ 'product_samples.section_4.title'|trans|raw }}</h3>
+                                    <h3>{{ 'product_samples.section_4.title'|trans({}, domain)|raw }}</h3>
                                 </div>
                             </a>
                         </div>
                         <div class="item">
-                            <a href="{{ asset('bundles/hteasset/images/product_samples/slideshow/large/die_drop_forging.jpg') }}" data-lightbox="product-sample-carousel" title="{{ 'product_samples.section_5.title'|trans|raw }}">
-                                <img src="{{ asset('bundles/hteasset/images/product_samples/slideshow/small/die_drop_forging.jpg') }}" alt="{{ 'product_samples.section_5.title'|trans|raw }}">
+                            <a href="{{ asset('bundles/hteasset/images/product_samples/slideshow/large/die_drop_forging.jpg') }}" data-lightbox="product-sample-carousel" title="{{ 'product_samples.section_5.title'|trans({}, domain)|raw }}">
+                                <img src="{{ asset('bundles/hteasset/images/product_samples/slideshow/small/die_drop_forging.jpg') }}" alt="{{ 'product_samples.section_5.title'|trans({}, domain)|raw }}">
                                 <div class="carousel-caption">
-                                    <h3>{{ 'product_samples.section_5.title'|trans|raw }}</h3>
+                                    <h3>{{ 'product_samples.section_5.title'|trans({}, domain)|raw }}</h3>
                                 </div>
                             </a>
 
@@ -83,23 +82,23 @@
         <div class="row">
             {% spaceless %}
                 <div class="col-sm-6">
-                    <h3>{{ 'product_samples.section_1.title'|trans|raw }}</h3>
-                    <p>{{ 'product_samples.section_1.body'|trans|raw }}</p>
+                    <h3>{{ 'product_samples.section_1.title'|trans({}, domain)|raw }}</h3>
+                    <p>{{ 'product_samples.section_1.body'|trans({}, domain)|raw }}</p>
                 </div>
                 <div class="col-sm-6 image-container image-grid">
                     <div class="image-row">
-                        <a href="{{ asset('bundles/hteasset/images/product_samples/die_casting/large/1.jpg') }}" data-lightbox="section_1" title="{{ 'product_samples.section_1.title'|trans|raw }}">
+                        <a href="{{ asset('bundles/hteasset/images/product_samples/die_casting/large/1.jpg') }}" data-lightbox="section_1" title="{{ 'product_samples.section_1.title'|trans({}, domain)|raw }}">
                             <img src="{{ asset('bundles/hteasset/images/product_samples/die_casting/small/1.jpg') }}" />
                         </a>
-                        <a href="{{ asset('bundles/hteasset/images/product_samples/die_casting/large/2.jpg') }}" data-lightbox="section_1" title="{{ 'product_samples.section_1.title'|trans|raw }}">
+                        <a href="{{ asset('bundles/hteasset/images/product_samples/die_casting/large/2.jpg') }}" data-lightbox="section_1" title="{{ 'product_samples.section_1.title'|trans({}, domain)|raw }}">
                             <img src="{{ asset('bundles/hteasset/images/product_samples/die_casting/small/2.jpg') }}" />
                         </a>
                     </div>
                     <div class="image-row">
-                        <a href="{{ asset('bundles/hteasset/images/product_samples/die_casting/large/3.jpg') }}" data-lightbox="section_1" title="{{ 'product_samples.section_1.title'|trans|raw }}">
+                        <a href="{{ asset('bundles/hteasset/images/product_samples/die_casting/large/3.jpg') }}" data-lightbox="section_1" title="{{ 'product_samples.section_1.title'|trans({}, domain)|raw }}">
                             <img src="{{ asset('bundles/hteasset/images/product_samples/die_casting/small/3.jpg') }}" />
                         </a>
-                        <a href="{{ asset('bundles/hteasset/images/product_samples/die_casting/large/4.jpg') }}" data-lightbox="section_1" title="{{ 'product_samples.section_1.title'|trans|raw }}">
+                        <a href="{{ asset('bundles/hteasset/images/product_samples/die_casting/large/4.jpg') }}" data-lightbox="section_1" title="{{ 'product_samples.section_1.title'|trans({}, domain)|raw }}">
                             <img src="{{ asset('bundles/hteasset/images/product_samples/die_casting/small/4.jpg') }}" />
                         </a>
                     </div>
@@ -111,25 +110,25 @@
             {% spaceless %}
                 <div class="col-sm-6 image-container image-grid">
                     <div class="image-row">
-                        <a href="{{ asset('bundles/hteasset/images/product_samples/permanent_mold/large/1.jpg') }}" data-lightbox="section_2" title="{{ 'product_samples.section_2.title'|trans|raw }}">
+                        <a href="{{ asset('bundles/hteasset/images/product_samples/permanent_mold/large/1.jpg') }}" data-lightbox="section_2" title="{{ 'product_samples.section_2.title'|trans({}, domain)|raw }}">
                             <img src="{{ asset('bundles/hteasset/images/product_samples/permanent_mold/small/1.jpg') }}" />
                         </a>
-                        <a href="{{ asset('bundles/hteasset/images/product_samples/permanent_mold/large/2.jpg') }}" data-lightbox="section_2" title="{{ 'product_samples.section_2.title'|trans|raw }}">
+                        <a href="{{ asset('bundles/hteasset/images/product_samples/permanent_mold/large/2.jpg') }}" data-lightbox="section_2" title="{{ 'product_samples.section_2.title'|trans({}, domain)|raw }}">
                             <img src="{{ asset('bundles/hteasset/images/product_samples/permanent_mold/small/2.jpg') }}" />
                         </a>
                     </div>
                     <div class="image-row">
-                        <a href="{{ asset('bundles/hteasset/images/product_samples/permanent_mold/large/3.jpg') }}" data-lightbox="section_2" title="{{ 'product_samples.section_2.title'|trans|raw }}">
+                        <a href="{{ asset('bundles/hteasset/images/product_samples/permanent_mold/large/3.jpg') }}" data-lightbox="section_2" title="{{ 'product_samples.section_2.title'|trans({}, domain)|raw }}">
                             <img src="{{ asset('bundles/hteasset/images/product_samples/permanent_mold/small/3.jpg') }}" />
                         </a>
-                        <a href="{{ asset('bundles/hteasset/images/product_samples/permanent_mold/large/4.jpg') }}" data-lightbox="section_2" title="{{ 'product_samples.section_2.title'|trans|raw }}">
+                        <a href="{{ asset('bundles/hteasset/images/product_samples/permanent_mold/large/4.jpg') }}" data-lightbox="section_2" title="{{ 'product_samples.section_2.title'|trans({}, domain)|raw }}">
                             <img src="{{ asset('bundles/hteasset/images/product_samples/permanent_mold/small/4.jpg') }}" />
                         </a>
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <h3>{{ 'product_samples.section_2.title'|trans|raw }}</h3>
-                    <p>{{ 'product_samples.section_2.body'|trans|raw }}</p>
+                    <h3>{{ 'product_samples.section_2.title'|trans({}, domain)|raw }}</h3>
+                    <p>{{ 'product_samples.section_2.body'|trans({}, domain)|raw }}</p>
                 </div>
             {% endspaceless %}
         </div>
@@ -137,23 +136,23 @@
         <div class="row">
             {% spaceless %}
                 <div class="col-sm-6">
-                    <h3>{{ 'product_samples.section_3.title'|trans|raw }}</h3>
-                    <p>{{ 'product_samples.section_3.body'|trans|raw }}</p>
+                    <h3>{{ 'product_samples.section_3.title'|trans({}, domain)|raw }}</h3>
+                    <p>{{ 'product_samples.section_3.body'|trans({}, domain)|raw }}</p>
                 </div>
                 <div class="col-sm-6 image-container image-grid">
                     <div class="image-row">
-                        <a href="{{ asset('bundles/hteasset/images/product_samples/sand_casting/large/1.jpg') }}" data-lightbox="section_3" title="{{ 'product_samples.section_3.title'|trans|raw }}">
+                        <a href="{{ asset('bundles/hteasset/images/product_samples/sand_casting/large/1.jpg') }}" data-lightbox="section_3" title="{{ 'product_samples.section_3.title'|trans({}, domain)|raw }}">
                             <img src="{{ asset('bundles/hteasset/images/product_samples/sand_casting/small/1.jpg') }}" />
                         </a>
-                        <a href="{{ asset('bundles/hteasset/images/product_samples/sand_casting/large/2.jpg') }}" data-lightbox="section_3" title="{{ 'product_samples.section_3.title'|trans|raw }}">
+                        <a href="{{ asset('bundles/hteasset/images/product_samples/sand_casting/large/2.jpg') }}" data-lightbox="section_3" title="{{ 'product_samples.section_3.title'|trans({}, domain)|raw }}">
                             <img src="{{ asset('bundles/hteasset/images/product_samples/sand_casting/small/2.jpg') }}" />
                         </a>
                     </div>
                     <div class="image-row">
-                        <a href="{{ asset('bundles/hteasset/images/product_samples/sand_casting/large/3.jpg') }}" data-lightbox="section_3" title="{{ 'product_samples.section_3.title'|trans|raw }}">
+                        <a href="{{ asset('bundles/hteasset/images/product_samples/sand_casting/large/3.jpg') }}" data-lightbox="section_3" title="{{ 'product_samples.section_3.title'|trans({}, domain)|raw }}">
                             <img src="{{ asset('bundles/hteasset/images/product_samples/sand_casting/small/3.jpg') }}" />
                         </a>
-                        <a href="{{ asset('bundles/hteasset/images/product_samples/sand_casting/large/4.jpg') }}" data-lightbox="section_3" title="{{ 'product_samples.section_3.title'|trans|raw }}">
+                        <a href="{{ asset('bundles/hteasset/images/product_samples/sand_casting/large/4.jpg') }}" data-lightbox="section_3" title="{{ 'product_samples.section_3.title'|trans({}, domain)|raw }}">
                             <img src="{{ asset('bundles/hteasset/images/product_samples/sand_casting/small/4.jpg') }}" />
                         </a>
                     </div>
@@ -165,25 +164,25 @@
             {% spaceless %}
                 <div class="col-sm-6 image-container image-grid">
                     <div class="image-row">
-                        <a href="{{ asset('bundles/hteasset/images/product_samples/investment_casting/large/1.jpg') }}" data-lightbox="section_4" title="{{ 'product_samples.section_4.title'|trans|raw }}">
+                        <a href="{{ asset('bundles/hteasset/images/product_samples/investment_casting/large/1.jpg') }}" data-lightbox="section_4" title="{{ 'product_samples.section_4.title'|trans({}, domain)|raw }}">
                             <img src="{{ asset('bundles/hteasset/images/product_samples/investment_casting/small/1.jpg') }}" />
                         </a>
-                        <a href="{{ asset('bundles/hteasset/images/product_samples/investment_casting/large/2.jpg') }}" data-lightbox="section_4" title="{{ 'product_samples.section_4.title'|trans|raw }}">
+                        <a href="{{ asset('bundles/hteasset/images/product_samples/investment_casting/large/2.jpg') }}" data-lightbox="section_4" title="{{ 'product_samples.section_4.title'|trans({}, domain)|raw }}">
                             <img src="{{ asset('bundles/hteasset/images/product_samples/investment_casting/small/2.jpg') }}" />
                         </a>
                     </div>
                     <div class="image-row">
-                        <a href="{{ asset('bundles/hteasset/images/product_samples/investment_casting/large/3.jpg') }}" data-lightbox="section_4" title="{{ 'product_samples.section_4.title'|trans|raw }}">
+                        <a href="{{ asset('bundles/hteasset/images/product_samples/investment_casting/large/3.jpg') }}" data-lightbox="section_4" title="{{ 'product_samples.section_4.title'|trans({}, domain)|raw }}">
                             <img src="{{ asset('bundles/hteasset/images/product_samples/investment_casting/small/3.jpg') }}" />
                         </a>
-                        <a href="{{ asset('bundles/hteasset/images/product_samples/investment_casting/large/4.jpg') }}" data-lightbox="section_4" title="{{ 'product_samples.section_4.title'|trans|raw }}">
+                        <a href="{{ asset('bundles/hteasset/images/product_samples/investment_casting/large/4.jpg') }}" data-lightbox="section_4" title="{{ 'product_samples.section_4.title'|trans({}, domain)|raw }}">
                             <img src="{{ asset('bundles/hteasset/images/product_samples/investment_casting/small/4.jpg') }}" />
                         </a>
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <h3>{{ 'product_samples.section_4.title'|trans|raw }}</h3>
-                    <p>{{ 'product_samples.section_4.body'|trans|raw }}</p>
+                    <h3>{{ 'product_samples.section_4.title'|trans({}, domain)|raw }}</h3>
+                    <p>{{ 'product_samples.section_4.body'|trans({}, domain)|raw }}</p>
                 </div>
             {% endspaceless %}
         </div>
@@ -191,23 +190,23 @@
         <div class="row">
             {% spaceless %}
                 <div class="col-sm-6">
-                    <h3>{{ 'product_samples.section_5.title'|trans|raw }}</h3>
-                    <p>{{ 'product_samples.section_5.body'|trans|raw }}</p>
+                    <h3>{{ 'product_samples.section_5.title'|trans({}, domain)|raw }}</h3>
+                    <p>{{ 'product_samples.section_5.body'|trans({}, domain)|raw }}</p>
                 </div>
                 <div class="col-sm-6 image-container image-grid">
                     <div class="image-row">
-                        <a href="{{ asset('bundles/hteasset/images/product_samples/forging/large/1.jpg') }}" data-lightbox="section_5" title="{{ 'product_samples.section_5.title'|trans|raw }}">
+                        <a href="{{ asset('bundles/hteasset/images/product_samples/forging/large/1.jpg') }}" data-lightbox="section_5" title="{{ 'product_samples.section_5.title'|trans({}, domain)|raw }}">
                             <img src="{{ asset('bundles/hteasset/images/product_samples/forging/small/1.jpg') }}" />
                         </a>
-                        <a href="{{ asset('bundles/hteasset/images/product_samples/forging/large/2.jpg') }}" data-lightbox="section_5" title="{{ 'product_samples.section_5.title'|trans|raw }}">
+                        <a href="{{ asset('bundles/hteasset/images/product_samples/forging/large/2.jpg') }}" data-lightbox="section_5" title="{{ 'product_samples.section_5.title'|trans({}, domain)|raw }}">
                             <img src="{{ asset('bundles/hteasset/images/product_samples/forging/small/2.jpg') }}" />
                         </a>
                     </div>
                     <div class="image-row">
-                        <a href="{{ asset('bundles/hteasset/images/product_samples/forging/large/3.jpg') }}" data-lightbox="section_5" title="{{ 'product_samples.section_5.title'|trans|raw }}">
+                        <a href="{{ asset('bundles/hteasset/images/product_samples/forging/large/3.jpg') }}" data-lightbox="section_5" title="{{ 'product_samples.section_5.title'|trans({}, domain)|raw }}">
                             <img src="{{ asset('bundles/hteasset/images/product_samples/forging/small/3.jpg') }}" />
                         </a>
-                        <a href="{{ asset('bundles/hteasset/images/product_samples/forging/large/4.jpg') }}" data-lightbox="section_5" title="{{ 'product_samples.section_5.title'|trans|raw }}">
+                        <a href="{{ asset('bundles/hteasset/images/product_samples/forging/large/4.jpg') }}" data-lightbox="section_5" title="{{ 'product_samples.section_5.title'|trans({}, domain)|raw }}">
                             <img src="{{ asset('bundles/hteasset/images/product_samples/forging/small/4.jpg') }}" />
                         </a>
                     </div>

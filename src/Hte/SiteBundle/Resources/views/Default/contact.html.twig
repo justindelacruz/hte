@@ -1,3 +1,5 @@
+{% set domain = 'contact' %}
+
 {% extends 'HteSiteBundle:Default:_main.html.twig' %}
 
 {% block title %}Contact {% endblock %}
@@ -5,32 +7,32 @@
 {% block pageClass %}h-contact{% endblock %}
 
 {% block container %}
-    <h3>{{ 'contact_us.section_1.title'|trans|raw }}</h3>
-    <p>{{ 'contact_us.section_1.body'|trans|raw }}</p>
+    <h3>{{ 'contact_us.section_1.title'|trans({}, domain)|raw }}</h3>
+    <p>{{ 'contact_us.section_1.body'|trans({}, domain)|raw }}</p>
 
     <table>
         <tbody>
             <tr>
                 <td><span class="glyphicon glyphicon-envelope"></span> E-mail:</td>
-                <td><a href="mailto:{{ 'contact_us.section_1.email'|trans|raw }}">{{ 'contact_us.section_1.email'|trans|raw }}</a></td>
+                <td><a href="mailto:{{ 'contact_us.section_1.email'|trans({}, domain)|raw }}">{{ 'contact_us.section_1.email'|trans({}, domain)|raw }}</a></td>
             </tr>
             <tr>
                 <td><span class="glyphicon glyphicon-earphone"></span> Tel:</td>
-                <td><a href="tel:{{ 'contact_us.section_1.tel'|trans|raw }}">{{ 'contact_us.section_1.tel'|trans|raw }}</a></td>
+                <td><a href="tel:{{ 'contact_us.section_1.tel'|trans({}, domain)|raw }}">{{ 'contact_us.section_1.tel'|trans({}, domain)|raw }}</a></td>
             </tr>
             <tr>
                 <td><span class="glyphicon glyphicon-print"></span> Fax:</td>
-                <td><a href="fax:{{ 'contact_us.section_1.fax'|trans|raw }}">{{ 'contact_us.section_1.fax'|trans|raw }}</a></td>
+                <td><a href="fax:{{ 'contact_us.section_1.fax'|trans({}, domain)|raw }}">{{ 'contact_us.section_1.fax'|trans({}, domain)|raw }}</a></td>
             </tr>
         </tbody>
     </table>
 
     <h3>
-        {{ 'contact_us.section_2.title'|trans|raw }}
+        {{ 'contact_us.section_2.title'|trans({}, domain)|raw }}
     </h3>
     <p>
         <a href="{{ asset('bundles/hteasset/docs/hte-enterprise-co-brochure.pdf') }}"><span class="glyphicon glyphicon-download"></span></a>
-        <a href="{{ asset('bundles/hteasset/docs/hte-enterprise-co-brochure.pdf') }}">{{ 'contact_us.section_2.body'|trans|raw }}</a></p>
+        <a href="{{ asset('bundles/hteasset/docs/hte-enterprise-co-brochure.pdf') }}">{{ 'contact_us.section_2.body'|trans({}, domain)|raw }}</a></p>
     <p>
         <a href="{{ asset('bundles/hteasset/docs/hte-enterprise-co-brochure.pdf') }}"><img src="{{ asset('bundles/hteasset/images/pdf_cover.jpg') }}" alt="Image of HTE Enterprise brochure PDF" /></a>
     </p>

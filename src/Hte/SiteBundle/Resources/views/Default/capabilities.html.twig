@@ -1,3 +1,5 @@
+{% set domain = 'capabilities' %}
+
 {% extends 'HteSiteBundle:Default:_main.html.twig' %}
 
 {% block title %}Capabilities - {% endblock %}
@@ -6,8 +8,8 @@
 
 {% block container %}
     <div class="mini-hero">
-        <h2><span>HTE</span> Capabilities</h2>
-        <p>Personalized and quality manufacturing at competitive rates.</p>
+        <h2>{{ 'capabilities.title'|trans({}, domain)|raw }}</h2>
+        <p>{{ 'capabilities.subtitle'|trans({}, domain)|raw }}</p>
     </div>
 
     <div class="row">
